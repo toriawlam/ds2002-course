@@ -14,7 +14,7 @@ RUN apt install -y python3 python3-dev python3-pip nano \
   git net-tools jq zip unzip dnsutils httpie tzdata wget htop \
   iputils-ping redis gsutil apt-transport-https pkg-config \
   ca-certificates gnupg gcc python3-setuptools libffi-dev \
-  mongodb-org libmysqlclient-dev \
+  mongodb-org libmysqlclient-dev groff \
   && apt clean autoclean && apt autoremove --yes \
   && rm -rf /var/lib/{apt,dpkg,cache,log}/
 

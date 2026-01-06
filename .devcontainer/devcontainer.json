@@ -31,7 +31,7 @@
 	// ],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8000],
+	"forwardPorts": [8000, 8888],
 
 	"containerEnv": {
     	"MY_CONTAINER_VAR": "some-value-here"
@@ -43,12 +43,15 @@
 		"ghcr.io/devcontainers/features/python": {
 			"installJupyterlab": true
 		},
-		"ghcr.io/devcontainers-extra/features/mongodb-atlas-cli-homebrew:1": {}
+		"ghcr.io/devcontainers-extra/features/mongodb-atlas-cli-homebrew:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"version": "latest",
+			"dockerDashComposeVersion": "v2"
+		}
 	}
 	// Note: Packages from requirements.txt are already installed in the Dockerfile
-	// If you need to install additional packages or run setup commands, uncomment below:
-	// "postCreateCommand": "echo 'Container ready!' && python --version"
-
-	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+	// Docker-in-Docker is enabled via the docker-in-docker feature above
+	// JupyterLab is installed via the Python feature and can be started with: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+	// The JupyterLab port (8888) is forwarded automatically in Codespaces
 
 }
