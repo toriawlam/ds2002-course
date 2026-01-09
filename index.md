@@ -4,17 +4,17 @@ title: DS2002 Data Science Systems
 ---
 ## Course Description
 
-This course exposes students to the essential technical concepts and skills for designing and running data science workloads. Students will be equipped to select and manage computing environments and storage options large and small. They will also learn methods for software delivery, scaling for larger jobs, and the essential database models for data storage and data analysis. 
+This course introduces you to the core technical concepts and practical skills needed to interact with systems to process data science workloads. You’ll learn how to choose and manage computing environments and storage options, from small local setups to larger cloud-based systems, and how to use essential database models for storage and analysis.
 
-Students in this course will become much more familiar with the command-line interface, scripting and managing code, and creating/managing local and cloud-based resources. A central goal of the course is to equip students in the technical aspects of their later work in data science, so that students have a wide range of tools, techniques, and skills for processing a variety of workloads. 
+Throughout the course, you’ll work extensively with the command line, scripting, and managing code and resources across local and cloud platforms. By the end of the course, you’ll have a solid technical foundation and a practical set of tools to support your work in future data science courses and projects.
 
 ## Getting Started
 
-To get started with the course, please follow the **[Setup Instructions](setup.md)** to configure your development environment.
+To get started with the course, please follow the **[Setup Instructions](setup/)** to configure your development environment.
 
 ## Practice
 
-Work through the **[Hands-on Exercises](exercises.md)** to practice and consolidate concepts introduced during class lectures and discussions. 
+Work through the **[Hands-on Exercises](practice/exercises.md)** to practice and consolidate concepts introduced during class lectures and discussions. 
 
 Each unit contains an "Advanced Concepts" section that allows you to dive deeper into a topic. **Note: Advanced concepts will not be covered in quizzes or labs.**
 

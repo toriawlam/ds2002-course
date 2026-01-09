@@ -8,7 +8,7 @@ Read [git in Data Science](https://uvads.github.io/git-basics/) for a brief intr
 Then work through the [Creating and Managing Git Repositories Exercises](https://uvads.github.io/git-basics/docs/creating-repositories/). These exercises will cover:
 
 * Init
-* Fork (should be familiar from [Setup Instructions](../../setup.md))
+* Fork (should be familiar from [Setup Instructions](../../setup/))
 * Delete
 * Managing Collaborators 
 
