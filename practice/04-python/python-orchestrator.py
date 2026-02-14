@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 
 # How to run a bash command from within a python3 script.
@@ -11,7 +11,7 @@
 ## systems.
 
 import os
-bashCommand = "cwm --rdf test.rdf --ntriples > test.nt"
+bashCommand = "echo 'Hello' > message.txt"
 os.system(bashCommand)
 
 

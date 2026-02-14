@@ -25,7 +25,7 @@ Click on a section below to get hands-on practice with a tool or concept:
 - [Git & GitHub](03-git/README.md)
 - [Scripting with bash](04-bash/README.md)
 - [Scripting with Python](04-python/README.md)
-- [Working with File Formats (JSON, CSV, etc.)](05-fileformats/README.md)
+- [Working with File Formats (JSON, CSV, etc.)](05-dataformats/README.md)
 - [SQL Databases](06-sql/README.md)
 - [NoSQL Databases](07-nosql/README.md)
 - [Storage with S3](08-storage/README.md)

@@ -172,9 +172,9 @@ Make HTTP requests to APIs:
 import requests
 
 # Make a GET request to a public API
-response = requests.get('https://api.publicapis.org/entries')
+response = requests.get('https://restcountries.com/v3.1/all?fields=name,capital,population')
 data = response.json()
-print(f"Fetched {len(data['entries'])} API entries")
+print(f"Fetched {len(data)} countries")
 ```
 
 ### Exception handling

@@ -1,0 +1,23 @@
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+2026-02-06 10:30:44 - INFO - Starting calculations...
+2026-02-06 10:30:47 - DEBUG - Value: 30
+2026-02-06 10:30:47 - DEBUG - Temporary result: 40
+2026-02-06 10:30:47 - INFO - Result: 1.3333333333333333
+2026-02-06 10:31:40 - INFO - Starting calculations...
+2026-02-06 10:31:42 - DEBUG - Value: 40
+2026-02-06 10:31:42 - DEBUG - Temporary result: 50
+2026-02-06 10:31:42 - INFO - Result: 1.25
+2026-02-06 10:31:42 - INFO - Done. Logs saved to my_app.log
+2026-02-06 10:32:21 - INFO - Starting calculations...
+2026-02-06 10:32:23 - DEBUG - Value: 30
+2026-02-06 10:32:23 - DEBUG - Temporary result: 40
+2026-02-06 10:32:23 - INFO - Result: 1.3333333333333333
+2026-02-06 10:32:23 - INFO - Done. Logs saved to my_app.log
+2026-02-06 10:32:32 - INFO - Starting calculations...
+2026-02-06 10:32:35 - DEBUG - Value: 0
+2026-02-06 10:32:35 - DEBUG - Temporary result: 10
+2026-02-06 10:32:35 - ERROR - Division by zero attempted. Result cannot be computed.
+2026-02-06 10:32:35 - INFO - Done. Logs saved to my_app.log
