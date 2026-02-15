@@ -1,0 +1,284 @@
+name,hypoallergenic,life.max
+Affenpinscher,True,16
+Afghan Hound,False,14
+Airedale Terrier,False,14
+Akita,False,12
+Alaskan Klee Kai,False,15
+Alaskan Malamute,False,15
+American Bulldog,False,14
+American English Coonhound,False,14
+American Eskimo Dog,False,15
+American Foxhound,False,15
+American Hairless Terrier,False,14
+American Leopard Hound,False,15
+American Staffordshire Terrier,False,14
+American Water Spaniel,False,14
+Anatolian Shepherd Dog,False,14
+Appenzeller Sennenhund,False,15
+Australian Cattle Dog,False,15
+Australian Kelpie,False,14
+Australian Shepherd,False,15
+Australian Stumpy Tail Cattle Dog,False,15
+Australian Terrier,False,16
+Azawakh,False,14
+Barbado da Terceira,False,15
+Barbet,False,14
+Basenji,False,16
+Basset Fauve de Bretagne,False,15
+Basset Hound,False,14
+Bavarian Mountain Scent Houn,False,15
+Beagle,False,15
+Bearded Collie,False,14
+Beauceron,False,14
+Bedlington Terrier,False,14
+Belgian Laekenois,False,15
+Belgian Malinois,False,14
+Belgian Sheepdog,False,14
+Belgian Tervuren,False,15
+Bergamasco Sheepdog,False,15
+Berger Picard,False,14
+Bernese Mountain Dog,False,10
+Bichon Frise,True,16
+Biewer Terrier,False,16
+Black and Tan Coonhound,False,15
+Black Russian Terrier,False,12
+Bloodhound,False,12
+Bluetick Coonhound,False,14
+Boerboel,False,12
+Bohemian Shepherd,False,14
+Bolognese,False,16
+Border Collie,False,16
+Border Terrier,False,16
+Borzoi,False,12
+Boston Terrier,False,14
+Bouvier des Flandres,False,14
+Boxer,False,12
+Boykin Spaniel,False,15
+Bracco Italiano,False,14
+Braque du Bourbonnais,False,15
+Braque Francais Pyrenean,False,14
+Briard,False,12
+Brittany,False,14
+Broholmer,False,10
+Brussels Griffon,False,15
+Bulldog,False,10
+Bullmastiff,False,10
+Bull Terrier,False,15
+Cairn Terrier,False,16
+Canaan Dog,False,14
+Cane Corso,False,12
+Cardigan Welsh Corgi,False,15
+Carolina Dog,False,14
+Catahoula Leopard Dog,False,14
+Caucasian Shepherd Dog,False,20
+Cavalier King Charles Spaniel,False,15
+Central Asian Shepherd Dog,False,14
+Cesky Terrier,False,14
+Chesapeake Bay Retriever,False,14
+Chihuahua,False,16
+Chinese Crested,True,16
+Chinese Shar-Pei,False,14
+Chinook,False,14
+Chow Chow,False,15
+Cirneco dell'Etna,False,14
+Clumber Spaniel,False,14
+Cocker Spaniel,False,15
+Collie,False,14
+Coton de Tulear,False,15
+Croatian Sheepdog,False,15
+Curly-Coated Retriever,False,14
+Czechoslovakian Vlcak,False,14
+Dachshund,False,15
+Dalmatian,False,13
+Dandie Dinmont Terrier,False,14
+Danish-Swedish Farmdog,False,14
+Deutscher Wachtelhund,False,14
+Doberman Pinscher,False,13
+Dogo Argentino,False,12
+Dogue de Bordeaux,False,10
+Drentsche Patrijshond,False,14
+Drever,False,14
+Dutch Shepherd,False,14
+English Cocker Spaniel,False,14
+English Foxhound,False,15
+English Setter,False,14
+English Springer Spaniel,False,14
+English Toy Spaniel,False,16
+Entlebucher Mountain Dog,False,14
+Estrela Mountain Dog,False,14
+Eurasier,False,15
+Field Spaniel,False,14
+Finnish Lapphund,False,14
+Finnish Spitz,False,16
+Flat-Coated Retriever,False,12
+French Bulldog,False,12
+French Spaniel,False,15
+German Longhaired Pointer,False,14
+German Pinscher,False,15
+German Shepherd Dog,False,13
+German Shorthaired Pointer,False,14
+German Spitz,False,16
+German Wirehaired Pointer,False,14
+Giant Schnauzer,False,14
+Glen of Imaal Terrier,False,14
+Golden Retriever,False,14
+Gordon Setter,False,14
+Grand Basset Griffon Vendéen,False,15
+Great Dane,False,10
+Greater Swiss Mountain Dog,False,10
+Great Pyrenees,False,12
+Greyhound,False,12
+Hamiltonstovare,False,14
+Hanoverian Scenthound,False,14
+Harrier,False,15
+Havanese,False,16
+Hokkaido,False,15
+Hovawart,False,14
+Ibizan Hound,False,15
+Icelandic Sheepdog,False,16
+Irish Red and White Setter,False,14
+Irish Setter,False,14
+Irish Terrier,False,15
+Irish Water Spaniel,True,14
+Irish Wolfhound,False,8
+Italian Greyhound,True,16
+Jagdterrier,False,15
+Japanese Akitainu,False,15
+Japanese Chin,False,14
+Japanese Spitz,False,15
+Japanese Terrier,False,20
+Jindo,False,15
+Kai Ken,False,15
+Karelian Bear Dog,False,15
+Keeshond,False,15
+Kerry Blue Terrier,True,14
+Kishu Ken,False,15
+Komondor,False,12
+Kromfohrlander,False,14
+Kuvasz,False,14
+Labrador Retriever,False,14
+Lagotto Romagnolo,False,15
+Lakeland Terrier,False,15
+Lancashire Heeler,False,15
+Lapponian Herder,False,14
+Leonberger,False,10
+Lhasa Apso,False,16
+Löwchen,False,15
+Maltese,True,14
+Manchester Terrier (Standard),False,15
+Manchester Terrier (Toy),False,15
+Mastiff,False,8
+Miniature American Shepherd,False,14
+Miniature Bull Terrier,False,15
+Miniature Pinscher,True,16
+Miniature Schnauzer,True,15
+Mountain Cur,False,15
+Mudi,False,15
+Neapolitan Mastiff,False,11
+Nederlandse Kooikerhondje,False,15
+Newfoundland,False,10
+Norfolk Terrier,False,15
+Norrbottenspets,False,15
+Norwegian Buhund,False,14
+Norwegian Elkhound,False,15
+Norwegian Lundehund,False,15
+Norwich Terrier,False,15
+Nova Scotia Duck Tolling Retriever,False,14
+Old English Sheepdog,False,12
+Otterhound,False,10
+Papillon,False,15
+Parson Russell Terrier,False,14
+Pekingese,False,14
+Pembroke Welsh Corgi,False,15
+Perro de Presa Canario,False,12
+Peruvian Inca Orchid,False,15
+Petit Basset Griffon Vendéen,False,14
+Pharaoh Hound,False,14
+Plott,False,14
+Pointer,False,14
+Polish Lowland Sheepdog,False,14
+Pomeranian,False,16
+Poodle (Miniature),False,16
+Poodle (Standard),False,15
+Poodle (Toy),True,16
+Porcelaine,False,15
+Portuguese Podengo,False,14
+Portuguese Podengo Pequeno,False,15
+Portuguese Pointer,False,14
+Portuguese Sheepdog,False,14
+Portuguese Water Dog,False,15
+Pudelpointer,False,15
+Pug,False,15
+Puli,False,15
+Pumi,False,15
+Pyrenean Mastiff,False,12
+Pyrenean Shepherd,False,15
+Rafeiro do Alentejo,False,14
+Rat Terrier,False,16
+Redbone Coonhound,False,14
+Rhodesian Ridgeback,False,14
+Romanian Carpathian Shepherd,False,14
+Romanian Mioritic Shepherd Dog,False,14
+Rottweiler,False,10
+Russell Terrier,False,14
+Russian Toy,False,14
+Russian Tsvetnaya Bolonka,False,16
+Saint Bernard,False,10
+Saluki,False,14
+Samoyed,False,14
+Schapendoes,False,15
+Schipperke,False,17
+Scottish Deerhound,False,10
+Scottish Terrier,False,15
+Sealyham Terrier,False,14
+Segugio Italiano,False,15
+Shetland Sheepdog,False,15
+Shiba Inu,False,15
+Shih Tzu,False,16
+Shikoku,False,15
+Siberian Husky,False,14
+Silky Terrier,False,15
+Skye Terrier,False,15
+Sloughi,False,14
+Slovakian Wirehaired Pointer,False,15
+Slovensky Cuvac,False,14
+Slovensky Kopov,False,14
+Small Munsterlander,False,15
+Smooth Fox Terrier,False,15
+Soft Coated Wheaten Terrier,True,15
+Spanish Mastiff,False,10
+Spanish Water Dog,False,14
+Spinone Italiano,False,14
+Stabyhoun,False,15
+Staffordshire Bull Terrier,False,14
+Standard Schnauzer,True,15
+Sussex Spaniel,False,15
+Swedish Lapphund,False,14
+Swedish Vallhund,False,15
+Taiwan Dog,False,15
+Teddy Roosevelt Terrier,False,15
+Thai Ridgeback,False,14
+Tibetan Mastiff,False,12
+Tibetan Spaniel,False,16
+Tibetan Terrier,False,16
+Tornjak,False,14
+Tosa,False,12
+Toy Fox Terrier,False,16
+Transylvanian Hound,False,14
+Treeing Tennessee Brindle,False,14
+Treeing Walker Coonhound,False,14
+Vizsla,False,15
+Volpino Italiano,False,15
+Weimaraner,False,14
+Welsh Springer Spaniel,False,15
+Welsh Terrier,False,15
+West Highland White Terrier,False,15
+Wetterhoun,False,14
+Whippet,False,15
+Wire Fox Terrier,False,15
+Wirehaired Pointing Griffon,False,14
+Wirehaired Vizsla,False,15
+Working Kelpie,False,15
+Xoloitzcuintli,True,15
+Yakutian Laika,False,15
+Yorkshire Terrier,False,15

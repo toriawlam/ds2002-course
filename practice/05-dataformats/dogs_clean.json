@@ -1,0 +1,1132 @@
+{
+  "name": "Affenpinscher",
+  "max_life": 16
+}
+{
+  "name": "Afghan Hound",
+  "max_life": 14
+}
+{
+  "name": "Airedale Terrier",
+  "max_life": 14
+}
+{
+  "name": "Akita",
+  "max_life": 12
+}
+{
+  "name": "Alaskan Klee Kai",
+  "max_life": 15
+}
+{
+  "name": "Alaskan Malamute",
+  "max_life": 15
+}
+{
+  "name": "American Bulldog",
+  "max_life": 14
+}
+{
+  "name": "American English Coonhound",
+  "max_life": 14
+}
+{
+  "name": "American Eskimo Dog",
+  "max_life": 15
+}
+{
+  "name": "American Foxhound",
+  "max_life": 15
+}
+{
+  "name": "American Hairless Terrier",
+  "max_life": 14
+}
+{
+  "name": "American Leopard Hound",
+  "max_life": 15
+}
+{
+  "name": "American Staffordshire Terrier",
+  "max_life": 14
+}
+{
+  "name": "American Water Spaniel",
+  "max_life": 14
+}
+{
+  "name": "Anatolian Shepherd Dog",
+  "max_life": 14
+}
+{
+  "name": "Appenzeller Sennenhund",
+  "max_life": 15
+}
+{
+  "name": "Australian Cattle Dog",
+  "max_life": 15
+}
+{
+  "name": "Australian Kelpie",
+  "max_life": 14
+}
+{
+  "name": "Australian Shepherd",
+  "max_life": 15
+}
+{
+  "name": "Australian Stumpy Tail Cattle Dog",
+  "max_life": 15
+}
+{
+  "name": "Australian Terrier",
+  "max_life": 16
+}
+{
+  "name": "Azawakh",
+  "max_life": 14
+}
+{
+  "name": "Barbado da Terceira",
+  "max_life": 15
+}
+{
+  "name": "Barbet",
+  "max_life": 14
+}
+{
+  "name": "Basenji",
+  "max_life": 16
+}
+{
+  "name": "Basset Fauve de Bretagne",
+  "max_life": 15
+}
+{
+  "name": "Basset Hound",
+  "max_life": 14
+}
+{
+  "name": "Bavarian Mountain Scent Houn",
+  "max_life": 15
+}
+{
+  "name": "Beagle",
+  "max_life": 15
+}
+{
+  "name": "Bearded Collie",
+  "max_life": 14
+}
+{
+  "name": "Beauceron",
+  "max_life": 14
+}
+{
+  "name": "Bedlington Terrier",
+  "max_life": 14
+}
+{
+  "name": "Belgian Laekenois",
+  "max_life": 15
+}
+{
+  "name": "Belgian Malinois",
+  "max_life": 14
+}
+{
+  "name": "Belgian Sheepdog",
+  "max_life": 14
+}
+{
+  "name": "Belgian Tervuren",
+  "max_life": 15
+}
+{
+  "name": "Bergamasco Sheepdog",
+  "max_life": 15
+}
+{
+  "name": "Berger Picard",
+  "max_life": 14
+}
+{
+  "name": "Bernese Mountain Dog",
+  "max_life": 10
+}
+{
+  "name": "Bichon Frise",
+  "max_life": 16
+}
+{
+  "name": "Biewer Terrier",
+  "max_life": 16
+}
+{
+  "name": "Black and Tan Coonhound",
+  "max_life": 15
+}
+{
+  "name": "Black Russian Terrier",
+  "max_life": 12
+}
+{
+  "name": "Bloodhound",
+  "max_life": 12
+}
+{
+  "name": "Bluetick Coonhound",
+  "max_life": 14
+}
+{
+  "name": "Boerboel",
+  "max_life": 12
+}
+{
+  "name": "Bohemian Shepherd",
+  "max_life": 14
+}
+{
+  "name": "Bolognese",
+  "max_life": 16
+}
+{
+  "name": "Border Collie",
+  "max_life": 16
+}
+{
+  "name": "Border Terrier",
+  "max_life": 16
+}
+{
+  "name": "Borzoi",
+  "max_life": 12
+}
+{
+  "name": "Boston Terrier",
+  "max_life": 14
+}
+{
+  "name": "Bouvier des Flandres",
+  "max_life": 14
+}
+{
+  "name": "Boxer",
+  "max_life": 12
+}
+{
+  "name": "Boykin Spaniel",
+  "max_life": 15
+}
+{
+  "name": "Bracco Italiano",
+  "max_life": 14
+}
+{
+  "name": "Braque du Bourbonnais",
+  "max_life": 15
+}
+{
+  "name": "Braque Francais Pyrenean",
+  "max_life": 14
+}
+{
+  "name": "Briard",
+  "max_life": 12
+}
+{
+  "name": "Brittany",
+  "max_life": 14
+}
+{
+  "name": "Broholmer",
+  "max_life": 10
+}
+{
+  "name": "Brussels Griffon",
+  "max_life": 15
+}
+{
+  "name": "Bulldog",
+  "max_life": 10
+}
+{
+  "name": "Bullmastiff",
+  "max_life": 10
+}
+{
+  "name": "Bull Terrier",
+  "max_life": 15
+}
+{
+  "name": "Cairn Terrier",
+  "max_life": 16
+}
+{
+  "name": "Canaan Dog",
+  "max_life": 14
+}
+{
+  "name": "Cane Corso",
+  "max_life": 12
+}
+{
+  "name": "Cardigan Welsh Corgi",
+  "max_life": 15
+}
+{
+  "name": "Carolina Dog",
+  "max_life": 14
+}
+{
+  "name": "Catahoula Leopard Dog",
+  "max_life": 14
+}
+{
+  "name": "Caucasian Shepherd Dog",
+  "max_life": 20
+}
+{
+  "name": "Cavalier King Charles Spaniel",
+  "max_life": 15
+}
+{
+  "name": "Central Asian Shepherd Dog",
+  "max_life": 14
+}
+{
+  "name": "Cesky Terrier",
+  "max_life": 14
+}
+{
+  "name": "Chesapeake Bay Retriever",
+  "max_life": 14
+}
+{
+  "name": "Chihuahua",
+  "max_life": 16
+}
+{
+  "name": "Chinese Crested",
+  "max_life": 16
+}
+{
+  "name": "Chinese Shar-Pei",
+  "max_life": 14
+}
+{
+  "name": "Chinook",
+  "max_life": 14
+}
+{
+  "name": "Chow Chow",
+  "max_life": 15
+}
+{
+  "name": "Cirneco dell'Etna",
+  "max_life": 14
+}
+{
+  "name": "Clumber Spaniel",
+  "max_life": 14
+}
+{
+  "name": "Cocker Spaniel",
+  "max_life": 15
+}
+{
+  "name": "Collie",
+  "max_life": 14
+}
+{
+  "name": "Coton de Tulear",
+  "max_life": 15
+}
+{
+  "name": "Croatian Sheepdog",
+  "max_life": 15
+}
+{
+  "name": "Curly-Coated Retriever",
+  "max_life": 14
+}
+{
+  "name": "Czechoslovakian Vlcak",
+  "max_life": 14
+}
+{
+  "name": "Dachshund",
+  "max_life": 15
+}
+{
+  "name": "Dalmatian",
+  "max_life": 13
+}
+{
+  "name": "Dandie Dinmont Terrier",
+  "max_life": 14
+}
+{
+  "name": "Danish-Swedish Farmdog",
+  "max_life": 14
+}
+{
+  "name": "Deutscher Wachtelhund",
+  "max_life": 14
+}
+{
+  "name": "Doberman Pinscher",
+  "max_life": 13
+}
+{
+  "name": "Dogo Argentino",
+  "max_life": 12
+}
+{
+  "name": "Dogue de Bordeaux",
+  "max_life": 10
+}
+{
+  "name": "Drentsche Patrijshond",
+  "max_life": 14
+}
+{
+  "name": "Drever",
+  "max_life": 14
+}
+{
+  "name": "Dutch Shepherd",
+  "max_life": 14
+}
+{
+  "name": "English Cocker Spaniel",
+  "max_life": 14
+}
+{
+  "name": "English Foxhound",
+  "max_life": 15
+}
+{
+  "name": "English Setter",
+  "max_life": 14
+}
+{
+  "name": "English Springer Spaniel",
+  "max_life": 14
+}
+{
+  "name": "English Toy Spaniel",
+  "max_life": 16
+}
+{
+  "name": "Entlebucher Mountain Dog",
+  "max_life": 14
+}
+{
+  "name": "Estrela Mountain Dog",
+  "max_life": 14
+}
+{
+  "name": "Eurasier",
+  "max_life": 15
+}
+{
+  "name": "Field Spaniel",
+  "max_life": 14
+}
+{
+  "name": "Finnish Lapphund",
+  "max_life": 14
+}
+{
+  "name": "Finnish Spitz",
+  "max_life": 16
+}
+{
+  "name": "Flat-Coated Retriever",
+  "max_life": 12
+}
+{
+  "name": "French Bulldog",
+  "max_life": 12
+}
+{
+  "name": "French Spaniel",
+  "max_life": 15
+}
+{
+  "name": "German Longhaired Pointer",
+  "max_life": 14
+}
+{
+  "name": "German Pinscher",
+  "max_life": 15
+}
+{
+  "name": "German Shepherd Dog",
+  "max_life": 13
+}
+{
+  "name": "German Shorthaired Pointer",
+  "max_life": 14
+}
+{
+  "name": "German Spitz",
+  "max_life": 16
+}
+{
+  "name": "German Wirehaired Pointer",
+  "max_life": 14
+}
+{
+  "name": "Giant Schnauzer",
+  "max_life": 14
+}
+{
+  "name": "Glen of Imaal Terrier",
+  "max_life": 14
+}
+{
+  "name": "Golden Retriever",
+  "max_life": 14
+}
+{
+  "name": "Gordon Setter",
+  "max_life": 14
+}
+{
+  "name": "Grand Basset Griffon Vendéen",
+  "max_life": 15
+}
+{
+  "name": "Great Dane",
+  "max_life": 10
+}
+{
+  "name": "Greater Swiss Mountain Dog",
+  "max_life": 10
+}
+{
+  "name": "Great Pyrenees",
+  "max_life": 12
+}
+{
+  "name": "Greyhound",
+  "max_life": 12
+}
+{
+  "name": "Hamiltonstovare",
+  "max_life": 14
+}
+{
+  "name": "Hanoverian Scenthound",
+  "max_life": 14
+}
+{
+  "name": "Harrier",
+  "max_life": 15
+}
+{
+  "name": "Havanese",
+  "max_life": 16
+}
+{
+  "name": "Hokkaido",
+  "max_life": 15
+}
+{
+  "name": "Hovawart",
+  "max_life": 14
+}
+{
+  "name": "Ibizan Hound",
+  "max_life": 15
+}
+{
+  "name": "Icelandic Sheepdog",
+  "max_life": 16
+}
+{
+  "name": "Irish Red and White Setter",
+  "max_life": 14
+}
+{
+  "name": "Irish Setter",
+  "max_life": 14
+}
+{
+  "name": "Irish Terrier",
+  "max_life": 15
+}
+{
+  "name": "Irish Water Spaniel",
+  "max_life": 14
+}
+{
+  "name": "Irish Wolfhound",
+  "max_life": 8
+}
+{
+  "name": "Italian Greyhound",
+  "max_life": 16
+}
+{
+  "name": "Jagdterrier",
+  "max_life": 15
+}
+{
+  "name": "Japanese Akitainu",
+  "max_life": 15
+}
+{
+  "name": "Japanese Chin",
+  "max_life": 14
+}
+{
+  "name": "Japanese Spitz",
+  "max_life": 15
+}
+{
+  "name": "Japanese Terrier",
+  "max_life": 20
+}
+{
+  "name": "Jindo",
+  "max_life": 15
+}
+{
+  "name": "Kai Ken",
+  "max_life": 15
+}
+{
+  "name": "Karelian Bear Dog",
+  "max_life": 15
+}
+{
+  "name": "Keeshond",
+  "max_life": 15
+}
+{
+  "name": "Kerry Blue Terrier",
+  "max_life": 14
+}
+{
+  "name": "Kishu Ken",
+  "max_life": 15
+}
+{
+  "name": "Komondor",
+  "max_life": 12
+}
+{
+  "name": "Kromfohrlander",
+  "max_life": 14
+}
+{
+  "name": "Kuvasz",
+  "max_life": 14
+}
+{
+  "name": "Labrador Retriever",
+  "max_life": 14
+}
+{
+  "name": "Lagotto Romagnolo",
+  "max_life": 15
+}
+{
+  "name": "Lakeland Terrier",
+  "max_life": 15
+}
+{
+  "name": "Lancashire Heeler",
+  "max_life": 15
+}
+{
+  "name": "Lapponian Herder",
+  "max_life": 14
+}
+{
+  "name": "Leonberger",
+  "max_life": 10
+}
+{
+  "name": "Lhasa Apso",
+  "max_life": 16
+}
+{
+  "name": "Löwchen",
+  "max_life": 15
+}
+{
+  "name": "Maltese",
+  "max_life": 14
+}
+{
+  "name": "Manchester Terrier (Standard)",
+  "max_life": 15
+}
+{
+  "name": "Manchester Terrier (Toy)",
+  "max_life": 15
+}
+{
+  "name": "Mastiff",
+  "max_life": 8
+}
+{
+  "name": "Miniature American Shepherd",
+  "max_life": 14
+}
+{
+  "name": "Miniature Bull Terrier",
+  "max_life": 15
+}
+{
+  "name": "Miniature Pinscher",
+  "max_life": 16
+}
+{
+  "name": "Miniature Schnauzer",
+  "max_life": 15
+}
+{
+  "name": "Mountain Cur",
+  "max_life": 15
+}
+{
+  "name": "Mudi",
+  "max_life": 15
+}
+{
+  "name": "Neapolitan Mastiff",
+  "max_life": 11
+}
+{
+  "name": "Nederlandse Kooikerhondje",
+  "max_life": 15
+}
+{
+  "name": "Newfoundland",
+  "max_life": 10
+}
+{
+  "name": "Norfolk Terrier",
+  "max_life": 15
+}
+{
+  "name": "Norrbottenspets",
+  "max_life": 15
+}
+{
+  "name": "Norwegian Buhund",
+  "max_life": 14
+}
+{
+  "name": "Norwegian Elkhound",
+  "max_life": 15
+}
+{
+  "name": "Norwegian Lundehund",
+  "max_life": 15
+}
+{
+  "name": "Norwich Terrier",
+  "max_life": 15
+}
+{
+  "name": "Nova Scotia Duck Tolling Retriever",
+  "max_life": 14
+}
+{
+  "name": "Old English Sheepdog",
+  "max_life": 12
+}
+{
+  "name": "Otterhound",
+  "max_life": 10
+}
+{
+  "name": "Papillon",
+  "max_life": 15
+}
+{
+  "name": "Parson Russell Terrier",
+  "max_life": 14
+}
+{
+  "name": "Pekingese",
+  "max_life": 14
+}
+{
+  "name": "Pembroke Welsh Corgi",
+  "max_life": 15
+}
+{
+  "name": "Perro de Presa Canario",
+  "max_life": 12
+}
+{
+  "name": "Peruvian Inca Orchid",
+  "max_life": 15
+}
+{
+  "name": "Petit Basset Griffon Vendéen",
+  "max_life": 14
+}
+{
+  "name": "Pharaoh Hound",
+  "max_life": 14
+}
+{
+  "name": "Plott",
+  "max_life": 14
+}
+{
+  "name": "Pointer",
+  "max_life": 14
+}
+{
+  "name": "Polish Lowland Sheepdog",
+  "max_life": 14
+}
+{
+  "name": "Pomeranian",
+  "max_life": 16
+}
+{
+  "name": "Poodle (Miniature)",
+  "max_life": 16
+}
+{
+  "name": "Poodle (Standard)",
+  "max_life": 15
+}
+{
+  "name": "Poodle (Toy)",
+  "max_life": 16
+}
+{
+  "name": "Porcelaine",
+  "max_life": 15
+}
+{
+  "name": "Portuguese Podengo",
+  "max_life": 14
+}
+{
+  "name": "Portuguese Podengo Pequeno",
+  "max_life": 15
+}
+{
+  "name": "Portuguese Pointer",
+  "max_life": 14
+}
+{
+  "name": "Portuguese Sheepdog",
+  "max_life": 14
+}
+{
+  "name": "Portuguese Water Dog",
+  "max_life": 15
+}
+{
+  "name": "Pudelpointer",
+  "max_life": 15
+}
+{
+  "name": "Pug",
+  "max_life": 15
+}
+{
+  "name": "Puli",
+  "max_life": 15
+}
+{
+  "name": "Pumi",
+  "max_life": 15
+}
+{
+  "name": "Pyrenean Mastiff",
+  "max_life": 12
+}
+{
+  "name": "Pyrenean Shepherd",
+  "max_life": 15
+}
+{
+  "name": "Rafeiro do Alentejo",
+  "max_life": 14
+}
+{
+  "name": "Rat Terrier",
+  "max_life": 16
+}
+{
+  "name": "Redbone Coonhound",
+  "max_life": 14
+}
+{
+  "name": "Rhodesian Ridgeback",
+  "max_life": 14
+}
+{
+  "name": "Romanian Carpathian Shepherd",
+  "max_life": 14
+}
+{
+  "name": "Romanian Mioritic Shepherd Dog",
+  "max_life": 14
+}
+{
+  "name": "Rottweiler",
+  "max_life": 10
+}
+{
+  "name": "Russell Terrier",
+  "max_life": 14
+}
+{
+  "name": "Russian Toy",
+  "max_life": 14
+}
+{
+  "name": "Russian Tsvetnaya Bolonka",
+  "max_life": 16
+}
+{
+  "name": "Saint Bernard",
+  "max_life": 10
+}
+{
+  "name": "Saluki",
+  "max_life": 14
+}
+{
+  "name": "Samoyed",
+  "max_life": 14
+}
+{
+  "name": "Schapendoes",
+  "max_life": 15
+}
+{
+  "name": "Schipperke",
+  "max_life": 17
+}
+{
+  "name": "Scottish Deerhound",
+  "max_life": 10
+}
+{
+  "name": "Scottish Terrier",
+  "max_life": 15
+}
+{
+  "name": "Sealyham Terrier",
+  "max_life": 14
+}
+{
+  "name": "Segugio Italiano",
+  "max_life": 15
+}
+{
+  "name": "Shetland Sheepdog",
+  "max_life": 15
+}
+{
+  "name": "Shiba Inu",
+  "max_life": 15
+}
+{
+  "name": "Shih Tzu",
+  "max_life": 16
+}
+{
+  "name": "Shikoku",
+  "max_life": 15
+}
+{
+  "name": "Siberian Husky",
+  "max_life": 14
+}
+{
+  "name": "Silky Terrier",
+  "max_life": 15
+}
+{
+  "name": "Skye Terrier",
+  "max_life": 15
+}
+{
+  "name": "Sloughi",
+  "max_life": 14
+}
+{
+  "name": "Slovakian Wirehaired Pointer",
+  "max_life": 15
+}
+{
+  "name": "Slovensky Cuvac",
+  "max_life": 14
+}
+{
+  "name": "Slovensky Kopov",
+  "max_life": 14
+}
+{
+  "name": "Small Munsterlander",
+  "max_life": 15
+}
+{
+  "name": "Smooth Fox Terrier",
+  "max_life": 15
+}
+{
+  "name": "Soft Coated Wheaten Terrier",
+  "max_life": 15
+}
+{
+  "name": "Spanish Mastiff",
+  "max_life": 10
+}
+{
+  "name": "Spanish Water Dog",
+  "max_life": 14
+}
+{
+  "name": "Spinone Italiano",
+  "max_life": 14
+}
+{
+  "name": "Stabyhoun",
+  "max_life": 15
+}
+{
+  "name": "Staffordshire Bull Terrier",
+  "max_life": 14
+}
+{
+  "name": "Standard Schnauzer",
+  "max_life": 15
+}
+{
+  "name": "Sussex Spaniel",
+  "max_life": 15
+}
+{
+  "name": "Swedish Lapphund",
+  "max_life": 14
+}
+{
+  "name": "Swedish Vallhund",
+  "max_life": 15
+}
+{
+  "name": "Taiwan Dog",
+  "max_life": 15
+}
+{
+  "name": "Teddy Roosevelt Terrier",
+  "max_life": 15
+}
+{
+  "name": "Thai Ridgeback",
+  "max_life": 14
+}
+{
+  "name": "Tibetan Mastiff",
+  "max_life": 12
+}
+{
+  "name": "Tibetan Spaniel",
+  "max_life": 16
+}
+{
+  "name": "Tibetan Terrier",
+  "max_life": 16
+}
+{
+  "name": "Tornjak",
+  "max_life": 14
+}
+{
+  "name": "Tosa",
+  "max_life": 12
+}
+{
+  "name": "Toy Fox Terrier",
+  "max_life": 16
+}
+{
+  "name": "Transylvanian Hound",
+  "max_life": 14
+}
+{
+  "name": "Treeing Tennessee Brindle",
+  "max_life": 14
+}
+{
+  "name": "Treeing Walker Coonhound",
+  "max_life": 14
+}
+{
+  "name": "Vizsla",
+  "max_life": 15
+}
+{
+  "name": "Volpino Italiano",
+  "max_life": 15
+}
+{
+  "name": "Weimaraner",
+  "max_life": 14
+}
+{
+  "name": "Welsh Springer Spaniel",
+  "max_life": 15
+}
+{
+  "name": "Welsh Terrier",
+  "max_life": 15
+}
+{
+  "name": "West Highland White Terrier",
+  "max_life": 15
+}
+{
+  "name": "Wetterhoun",
+  "max_life": 14
+}
+{
+  "name": "Whippet",
+  "max_life": 15
+}
+{
+  "name": "Wire Fox Terrier",
+  "max_life": 15
+}
+{
+  "name": "Wirehaired Pointing Griffon",
+  "max_life": 14
+}
+{
+  "name": "Wirehaired Vizsla",
+  "max_life": 15
+}
+{
+  "name": "Working Kelpie",
+  "max_life": 15
+}
+{
+  "name": "Xoloitzcuintli",
+  "max_life": 15
+}
+{
+  "name": "Yakutian Laika",
+  "max_life": 15
+}
+{
+  "name": "Yorkshire Terrier",
+  "max_life": 15
+}

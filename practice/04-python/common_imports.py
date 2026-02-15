@@ -1,9 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
+
+# you may need to install these package with `pip install <package_name>` or `pip install --user <package_name>`
 
 import os
 import io
 import boto3
-import cvs
+import csv
 import json
 import re
 import requests
