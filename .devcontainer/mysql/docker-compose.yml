@@ -1,0 +1,38 @@
+services:
+  app:
+    build:
+      context: ../../ # Refers to the top level directory; need to find the requirements.txt file in the top level directory
+      dockerfile: .devcontainer/mysql/Dockerfile # Refers to the Dockerfile in the mysql directory
+      args:
+        USERNAME: "vscode"
+        GROUPNAME: "ds2002"
+        USER_UID: 1000
+        USER_GID: 1000
+        NODE_ENV: "development"
+    #volumes:
+    #  - ../../:/workspaces/${localWorkspaceFolderBasename} # Mounts your project files
+    depends_on:
+      - dbhost
+    command: /bin/sh -c "while sleep 1000; do :; done"     
+  dbhost:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD}  # This is injected from GitHub Secrets in codespace and in local environment you need to create a file named .env and save your passord for the database service
+    ports:
+      - "6033:3306"
+    volumes:
+      - data:/var/lib/mysql
+      - ./workspace:/workspace
+      - ./init-mysql.sh:/docker-entrypoint-initdb.d/init-mysql.sh
+  phpmyadmin:
+    image: phpmyadmin
+    depends_on:
+      - dbhost
+    restart: always
+    ports:
+      - "88:80"
+    environment:
+      PMA_HOST: dbhost
+volumes:
+  data:

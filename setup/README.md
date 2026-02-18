@@ -57,6 +57,10 @@ You should see a screen like this:
 
 Once your codespace is ready, you'll have a fully configured development environment in your browser!
 
+## Using GitHub Codespaces for MySQL Practice and Labs (Recommended)
+
+The course repository defines a Codespace setup with MySQL Server, MySQL Client and PHPAdmin. Follow the [MySQL Setup in GitHub Codespace](codespace-mysql.md) instructions to set this up in your fork of the course repository. 
+
 ## Access to UVA's High Performance Computing Cluster
 
 Throughout this course students will have access to [UVA's HPC systems (Afton & Rivanna)](https://www.rc.virginia.edu/userinfo/hpc/). In addition to HPC specific activities in Module 3, you may also use the system as an alternative to Codespaces for other course activities.
