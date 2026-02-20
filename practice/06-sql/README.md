@@ -17,16 +17,35 @@ Before you begin, you'll need to set up your environment to work with MySQL data
 
 Complete the Setup steps above before beginning the hands-on exercises below.
 
-### Step 1: Start up a Codespace
+### Step 1: Connect to the MySQL instance in AWS RDS
 
+**Option A:**
 Start up a new Codespace from your forked repository using the `MySQL` option. For detailed instructions, see [Start MySQL environment in Codespace](../../setup/codespace-mysql.md#step-2-start-mysql-environment-in-codespace).
-
-### Step 2: Connect to the MySQL instance in AWS RDS
-
-Connect to the remote MySQL database using the command-line client:
 
 ```bash
 mysql -h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com -P 3306 -u ds2002 -p
+```
+
+**Option B (docker):**
+If you cannot spin up the MySQL Codespace environment, you can do the following in the standard course Codespace, assuming the Docker container service is installed:
+```bash
+docker run -it mysql:8.0 mysql -h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com -P 3306 -u ds2002 -p
+```
+The `docker run -it mysql:8.0` command launches the Docker container service. It pulls the MySQL container image (version 8.0) from DockerHub, a central software container registry, and launches the `mysql` CLI in an interactive subprocess with the command line arguments you provided.
+
+**Option C (HPC: apptainer):**
+If you are on [UVA's HPC cluster](../../setup/hpc.md), you can use the Apptainer container runtime. The concept and syntax are very similar to Docker.
+
+Get the Docker image:
+```bash
+apptainer pull ~/mysql-8.0.sif docker://mysql:8.0
+```
+This will pull the `mysql:8.0` image from DockerHub and convert it to an Apptainer image `mysql-8.0.sif` in your home directory. You only have to do this once. 
+
+Run mysql:
+```bash
+module load apptainer
+apptainer run ~/mysql-8.0.sif mysql -h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com -P 3306 -u ds2002 -p
 ```
 
 **Command options explained:**
@@ -44,7 +63,7 @@ mysql>
 
 This indicates you're connected to the interactive MySQL command line interface and ready to execute SQL commands.
 
-### Step 3: Explore the existing databases and tables. 
+### Step 2: Explore the existing databases and tables 
 
 ```sql
 SHOW DATABASES;
@@ -84,7 +103,77 @@ DESCRIBE users;
 DESCRIBE posts;
 ```
 
-### Step 4: Insert new data
+That's a good foundation. In class you brainstormed the addition of more fields to capture richer datasets about users and posts.
+
+- `users`: 
+    - handle - VARCHAR(15)
+- `posts`: 
+    - likes - INT
+    - date - DATETIME
+
+Observe the commands to modify the tables accordingly:
+```sql
+ALTER TABLE users ADD COLUMN handle VARCHAR(15);
+ALTER TABLE posts ADD COLUMN likes INT;
+ALTER TABLE posts ADD COLUMN date DATETIME;
+```
+
+Inspect our work:
+```sql
+DESCRIBE users;
+```
+Output:
+```
++--------+-------------+------+-----+---------+----------------+
+| Field  | Type        | Null | Key | Default | Extra          |
++--------+-------------+------+-----+---------+----------------+
+| userid | int         | NO   | PRI | NULL    | auto_increment |
+| name   | varchar(25) | YES  |     | NULL    |                |
+| email  | varchar(25) | YES  |     | NULL    |                |
+| handle | varchar(15) | YES  |     | NULL    |                |
++--------+-------------+------+-----+---------+----------------+
+4 rows in set (0.01 sec)
+```
+
+```sql
+DESCRIBE posts;
+```
+Output:
++---------+----------+------+-----+---------+----------------+
+| Field   | Type     | Null | Key | Default | Extra          |
++---------+----------+------+-----+---------+----------------+
+| postid  | int      | NO   | PRI | NULL    | auto_increment |
+| message | text     | YES  |     | NULL    |                |
+| userid  | int      | YES  |     | NULL    |                |
+| likes   | int      | YES  |     | NULL    |                |
+| date    | datetime | YES  |     | NULL    |                |
++---------+----------+------+-----+---------+----------------+
+5 rows in set (0.01 sec)
+
+**Understanding NULL values:**
+
+The `Null` column in the `DESCRIBE` output indicates whether each field allows NULL values:
+- **`YES`**: The column can contain NULL values (the field is optional)
+- **`NO`**: The column cannot contain NULL values (the field is required)
+
+In our tables, `users.userid` and `posts.postid` show `NO` because they are primary keys, which must always have a value. Other columns like `name`, `email`, and `handle` show `YES`, meaning they can be left empty (NULL).
+
+If you want to *require* a value for a non-primary-key column, use the `NOT NULL` constraint (MySQL does **not** have a `REQUIRED` keyword). For example:
+
+```sql
+ALTER TABLE users MODIFY COLUMN email VARCHAR(50) NOT NULL;
+```
+
+You can also set a `DEFAULT` value so new rows get a non-NULL value automatically.
+
+**Important distinction:** `NULL` represents the absence of a value and is different from:
+- An empty string (`''`) - which is an actual value (an empty text)
+- Zero (`0`) - which is an actual numeric value
+- An empty date - which would be `'0000-00-00'` or similar, not NULL
+
+When querying, use `IS NULL` or `IS NOT NULL` to check for NULL values, not `= NULL` or `!= NULL`.
+
+### Step 3: Insert new data
 
 At the moment the tables are empty. Let's change that.
 
@@ -123,7 +212,7 @@ Let's switch to the `posts` table.
 SELECT * FROM posts;
 ```
 
-### Step 5: Simple Joins
+### Step 4: Simple Joins
 
 Let's combine the information in both tables. The relationship between their records is linked through the primary key `userid` in the `users` table and the foreign key `userid` in the `posts` table.
 
@@ -141,13 +230,13 @@ SELECT posts.*, users.* FROM posts LEFT JOIN users ON posts.userid = users.useri
 
 You can learn more about joins in this [SQL tutorial](https://www.geeksforgeeks.org/sql/sql-join-set-1-inner-left-right-and-full-joins/).
 
-### Step 6: Creating Views
+### Step 5: Creating Views
 
-A view is populated by the results from a stored SQL query, e.g. the results of a filter or join operation. A view is named and shows up in the `SHOW FULL TABLES;` output. 
+A view is populated by the results from a stored SQL query, e.g., the results of a filter or join operation. A view is named and shows up in the `SHOW FULL TABLES;` output. 
 
 ```sql
 CREATE VIEW `msg_by_user` AS SELECT 
-    users.*,
+    users.name, users.email, 
     posts.* 
 FROM users 
 LEFT JOIN posts 
@@ -156,7 +245,18 @@ WHERE posts.postid IS NOT NULL;
 ```
 In this example the view is named `msg_by_user` and provides the results of posts organized by users.
 
-### Step 7: SQL script files
+**Note: Views do not allow duplication of column headers.** In our example both `users` and `posts` tables contain the `userid` field. Selection of all fields from `users.*` and `posts.*` will fail:
+```sql
+CREATE VIEW `msg_by_user` AS SELECT 
+    users.*, 
+    posts.* 
+FROM users 
+LEFT JOIN posts 
+ON users.userid = posts.userid 
+WHERE posts.postid IS NOT NULL;
+```
+
+### Step 6: SQL script files
 
 Instead of typing SQL commands interactively, you can save SQL statements in a file and execute them using input redirection. This is useful for running multiple commands, setting up databases, or executing complex queries.
 
