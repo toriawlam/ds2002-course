@@ -44,7 +44,28 @@ When ready, click the `Connect to VSCode` button.
 
 ![Open OnDemand Code Server](../docs/images/ood-vscode.png)
 
-If this is your first time using VSCode on UVA's HPC system, click `Clone GitHub repository` in the Welcome window and follow the instructions. Use the url for your **fork of the course repository**, and authorize connection to GitHub.
+If this is your first time using VSCode on UVA's HPC system, click `Clone GitHub repository` in the Welcome window and follow the instructions. Use the url for your **fork of the course repository**, and authorize connection to GitHub. When asked, choose your home directory on the cluster (/home/YOUR_COMPUTING_ID) as destination for the cloned repo.  
+
+#### Python Setup
+
+If this is your first time using VSCode on UVA's HPC system, follow these steps to set up your Python environment:
+
+1. In VSCode switch to the top level folder `ds2002-course` of your repository (`File` > `Open Folder`). 
+   
+2. Open a terminal in VSCode. Confirm with `pwd` that you're at the top level of your Git repo.
+
+3. Run the following commands to set up a new Python environment (replace YOUR_GITHUB_USERNAME with your GH username):
+   ```bash
+   module load miniforge
+   mamba env create -f environment.yml
+   ```
+   This will create a new Python environment named `ds2002`. This environment is isolated from other Python installation on the cluster.
+
+**Note: In order to use the new Python environment you have to run these commands in the terminal:**
+```bash
+module load miniforge
+source activate ds2002
+```
 
 ### Step 2b: JupyterLab 
 
