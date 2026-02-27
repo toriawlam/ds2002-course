@@ -41,7 +41,7 @@ If you are running on [UVA's HPC cluster](../../setup/hpc.md), you can use Appta
 ```bash
 module load apptainer
 apptainer pull ~/mysql-8.0.sif docker://mysql:8.0
-apptainer run ~/mysql-8.0.sif mysql -h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com -P 3306 -u <uva_computing_id>
+apptainer run ~/mysql-8.0.sif mysql -h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com -P 3306 -u <uva_computing_id> -p
 ```
 
 **Password:** For MySQL access in AWS RDS, the password is the same as your computing ID.  

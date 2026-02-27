@@ -54,7 +54,7 @@ If this is your first time using VSCode on UVA's HPC system, follow these steps 
    
 2. Open a terminal in VSCode. Confirm with `pwd` that you're at the top level of your Git repo.
 
-3. Run the following commands to set up a new Python environment (replace YOUR_GITHUB_USERNAME with your GH username):
+3. Run the following commands to set up a new Python environment:
    ```bash
    module load miniforge
    mamba env create -f environment.yml
