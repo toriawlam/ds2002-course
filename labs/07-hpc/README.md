@@ -3,7 +3,7 @@
 
 This lab gets you hands-on with **high performance computing (HPC)** workflows using the **Slurm** scheduler. You will run a *single batch job* and then scale it up to a **job array** that processes multiple input files in parallel as resources become available.
 
-You’ll use a lightweight text-analysis task (word counting with **lemmatization**) as the motivating example. The ratio of unique word count to total word count serves as an indicator of the author's vocabulary complexity.
+You’ll use a lightweight text-analysis task (word counting with **lemmatization**) as the motivating example. The ratio of unique word count to total word count serves as an indicator of the author's vocabulary complexity. This is an advancement compared to the processing of the *Moby Dick* text in an earlier lab.
 
 ---
 
@@ -181,6 +181,12 @@ sacct -S today
 ```bash
 ls -lh results-*.csv
 ```
+
+6. **Optional:** Expand the job array
+
+Feel free to add additional books or other text sources as `book-*.txt` files, resize the job array, and submit again to fully explore the gains in analysis throughput. You can either edit the `create-book-files.sh` script or manually create new `book-*.txt` files.
+
+The results of this optional activity are not required for lab submission.
 
 ---
 
