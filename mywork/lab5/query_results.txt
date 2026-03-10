@@ -1,0 +1,11 @@
+first_name	last_name	order_item	order_date
+Victoria	Lam	Sandwich	2026-03-09 11:30:15
+Andrew	Garfield	Cookie	2026-03-09 17:42:17
+Tom	Holland	Salad	2026-03-09 12:00:25
+Zendaya	Coleman	Burger	2026-03-09 18:10:10
+Zooey	Deschanel	Sandwich	2026-03-09 18:32:17
+Jennifer	Lopez	Shake	2026-03-09 18:41:16
+Ted	Lasso	Smoothie	2026-03-09 19:00:05
+Kali	Uchis	Cookie	2026-03-09 19:02:14
+Don	Toliver	Salad	2026-03-09 19:10:26
+Baby	Keem	Soda	2026-03-09 19:12:35
