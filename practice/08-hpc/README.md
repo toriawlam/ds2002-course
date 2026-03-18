@@ -125,7 +125,7 @@ Submitted batch job 10058413
 Now that the job is in the queue, we can check its status with the `squeue` command. You can add a job's ID to get information about a particular job (update the job number with your specific job ID).
 
 ```bash
-squeue 10058413
+squeue --job 10058413
 ```
 
 At first you may see something like this:
@@ -655,7 +655,7 @@ Submitted batch job 10058413
 The `squeue` command shows you all the jobs currently in the job queue. You can add a job's ID to get information about a particular job.
 
 ```bash
-squeue 10058413
+squeue --job 10058413
 ```
 
 Output:
