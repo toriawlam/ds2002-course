@@ -1,0 +1,2062 @@
+JobID           JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+10106617     ood_vscode interacti+     ds2002          2    TIMEOUT      0:0 
+10106617.ba+      batch                ds2002          2  CANCELLED     0:15 
+10107489     ood_vscode interacti+     ds2002          2    TIMEOUT      0:0 
+10107489.ba+      batch                ds2002          2  CANCELLED     0:15 
+10112889     ood_vscode interacti+     ds2002          2    TIMEOUT      0:0 
+10112889.ba+      batch                ds2002          2  CANCELLED     0:15 
+10116505     ood_vscode interacti+     ds2002          2    TIMEOUT      0:0 
+10116505.ba+      batch                ds2002          2  CANCELLED     0:15 
+10124372     ood_vscode interacti+     ds2002          2    TIMEOUT      0:0 
+10124372.ba+      batch                ds2002          2  CANCELLED     0:15 
+10172332     ood_vscode interacti+     ds2002          2     FAILED      1:0 
+10172332.ba+      batch                ds2002          2     FAILED      1:0 
+10174546     ood_vscode interacti+     ds2002          2    TIMEOUT      0:0 
+10174546.ba+      batch                ds2002          2  CANCELLED     0:15 
+10322437     ood_vscode interacti+     ds2002          2    TIMEOUT      0:0 
+10322437.ba+      batch                ds2002          2  CANCELLED     0:15 
+10323356           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323356.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323359           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323359.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323379           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323379.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323381           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323381.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323384           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323384.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323386           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323386.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323393           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323393.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323394           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323394.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323406           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323406.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323411           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323411.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323414           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323414.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323415           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323415.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323421           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323421.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323432           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323432.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323439           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323439.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323444           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323444.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323448           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323448.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323455           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323455.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323457           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323457.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323465           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323465.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323469           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323469.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323482           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323482.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323487           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323487.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323494           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323494.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323497           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323497.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323502           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323502.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323508           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323508.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323516           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323516.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323518           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323518.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323521           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323521.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323525           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323525.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323526           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323526.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323531           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323531.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323533           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323533.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323535           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323535.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323537           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323537.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323538           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323538.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323544           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323544.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323545           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323545.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323549           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323549.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323550           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323550.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323553           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323553.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323559           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323559.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323562           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323562.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323566           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323566.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323568           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323568.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323571           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323571.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323582           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323582.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323584           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323584.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323587           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323587.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323592           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323592.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323593           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323593.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323595           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323595.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323596           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323596.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323597           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323597.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323599           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323599.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323602           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323602.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323603           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323603.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323606           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323606.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323607           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323607.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323617           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323617.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323618           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323618.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323629           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323629.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323631           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323631.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323633           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323633.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323636           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323636.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323637           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323637.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323641           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323641.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323642           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323642.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323644           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323644.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323646           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323646.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323651           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323651.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323654           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323654.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323659           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323659.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323661           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323661.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323663           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323663.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323667           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323667.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323671           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323671.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323672           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323672.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323678           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323678.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323680           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323680.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323686           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323686.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323695           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323695.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323697           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323697.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323701           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323701.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323703           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323703.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323706           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323706.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323709           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323709.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323712           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323712.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323715           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323715.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323716           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323716.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323717           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323717.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323721           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323721.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323725           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323725.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323727           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323727.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323731           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323731.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323733           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323733.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323736           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323736.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323738           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323738.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323742           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323742.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323744           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323744.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323747           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323747.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323752           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323752.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323755           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323755.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323756           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323756.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323757           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323757.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323801           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323801.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323805           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323805.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323808           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323808.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323814           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323814.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323815           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323815.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323817           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323817.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323820           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323820.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323822           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323822.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323836           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323836.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323839           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323839.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323841           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323841.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323842           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323842.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323843           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323843.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323845           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323845.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323847           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323847.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323852           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323852.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323855           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323855.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323858           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323858.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323867           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323867.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323870           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323870.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323872           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323872.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323875           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323875.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323878           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323878.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323889           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323889.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323907           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323907.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323909           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323909.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323916           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323916.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323966           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323966.ba+      batch                ds2002          1  COMPLETED      0:0 
+10323970           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10323970.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324004           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324004.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324012           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324012.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324028           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324028.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324035           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324035.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324038           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324038.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324047           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324047.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324052           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324052.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324054           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324054.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324064           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324064.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324075           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324075.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324083           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324083.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324089           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324089.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324093           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324093.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324100           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324100.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324103           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324103.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324107           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324107.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324110           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324110.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324118           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324118.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324124           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324124.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324125           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324125.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324129           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324129.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324134           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324134.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324139           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324139.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324144           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324144.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324146           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324146.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324152           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324152.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324156           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324156.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324158           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324158.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324163           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324163.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324174           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324174.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324179           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324179.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324182           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324182.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324190           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324190.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324195           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324195.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324198           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324198.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324202           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324202.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324205           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324205.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324213           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324213.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324219           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324219.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324241           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324241.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324249           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324249.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324256           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324256.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324260           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324260.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324268           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324268.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324320           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324320.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324393           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324393.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324441           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324441.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324446           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324446.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324453           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324453.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324464           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324464.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324479           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324479.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324488           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324488.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324492           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324492.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324499           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324499.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324501           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324501.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324510           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324510.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324518           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324518.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324584           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324584.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324592           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324592.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324603           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324603.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324666           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324666.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324674           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324674.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324706           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324706.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324712           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324712.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324715           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324715.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324727           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324727.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324729           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324729.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324731           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324731.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324736           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324736.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324739           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324739.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324742           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324742.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324749           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324749.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324753           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324753.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324758           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324758.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324763           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324763.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324771           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324771.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324773           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324773.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324776           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324776.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324784           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324784.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324792           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324792.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324797           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324797.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324801           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324801.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324805           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324805.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324816           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324816.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324820           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324820.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324824           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324824.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324840           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324840.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324842           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324842.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324845           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324845.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324849           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324849.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324850           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324850.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324857           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324857.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324862           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324862.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324865           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324865.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324874           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324874.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324882           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324882.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324890           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324890.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324894           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324894.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324896           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324896.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324901           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324901.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324906           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324906.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324917           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324917.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324925           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324925.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324930           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324930.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324934           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324934.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324936           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324936.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324940           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324940.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324943           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324943.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324951           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324951.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324955           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324955.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324960           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324960.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324964           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324964.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324969           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324969.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324972           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324972.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324976           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324976.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324980           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324980.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324989           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324989.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324995           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324995.ba+      batch                ds2002          1  COMPLETED      0:0 
+10324997           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10324997.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325000           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325000.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325002           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325002.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325006           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325006.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325008           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325008.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325013           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325013.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325025           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325025.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325029           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325029.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325031           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325031.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325035           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325035.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325038           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325038.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325043           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325043.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325045           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325045.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325050           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325050.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325055           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325055.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325060           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325060.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325067           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325067.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325075           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325075.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325077           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325077.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325089           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325089.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325095           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325095.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325100           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325100.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325105           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325105.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325109           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325109.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325112           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325112.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325118           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325118.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325125           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325125.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325128           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325128.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325145           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325145.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325150           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325150.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325154           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325154.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325158           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325158.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325161           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325161.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325165           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325165.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325171           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325171.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325184           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325184.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325186           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325186.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325189           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325189.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325197           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325197.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325200           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325200.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325204           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325204.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325205           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325205.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325212           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325212.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325216           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325216.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325218           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325218.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325225           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325225.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325227           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325227.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325230           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325230.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325234           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325234.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325240           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325240.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325246           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325246.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325249           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325249.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325261           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325261.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325265           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325265.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325284           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325284.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325295           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325295.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325301           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325301.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325304           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325304.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325313           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325313.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325322           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325322.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325326           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325326.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325332           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325332.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325340           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325340.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325344           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325344.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325354           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325354.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325358           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325358.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325364           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325364.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325371           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325371.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325378           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325378.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325384           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325384.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325391           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325391.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325393           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325393.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325429           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325429.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325434           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325434.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325439           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325439.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325449           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325449.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325459           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325459.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325465           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325465.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325473           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325473.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325481           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325481.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325487           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325487.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325497           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325497.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325505           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325505.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325516           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325516.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325528           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325528.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325638           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325638.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325877           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325877.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325892           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325892.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325899           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325899.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325917           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325917.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325924           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325924.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325936           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325936.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325939           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325939.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325951           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325951.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325957           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325957.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325963           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325963.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325965           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325965.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325967           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325967.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325970           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325970.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325974           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325974.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325985           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325985.ba+      batch                ds2002          1  COMPLETED      0:0 
+10325992           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10325992.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326005           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326005.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326008           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326008.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326014           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326014.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326022           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326022.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326027           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326027.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326039           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326039.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326111           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326111.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326128           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326128.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326193           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326193.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326202           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326202.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326207           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326207.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326210           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326210.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326221           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326221.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326245           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326245.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326253           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326253.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326294           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326294.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326304           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326304.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326317           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326317.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326324           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326324.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326331           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326331.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326334           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326334.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326341           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326341.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326347           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326347.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326351           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326351.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326358           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326358.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326362           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326362.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326366           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326366.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326372           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326372.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326376           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326376.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326393           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326393.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326410           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326410.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326414           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326414.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326418           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326418.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326421           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326421.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326432           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326432.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326434           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326434.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326443           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326443.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326447           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326447.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326455           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326455.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326459           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326459.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326461           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326461.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326471           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326471.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326481           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326481.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326486           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326486.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326493           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326493.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326500           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326500.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326506           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326506.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326515           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326515.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326522           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326522.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326526           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326526.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326533           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326533.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326541           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326541.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326552           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326552.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326653           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326653.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326895           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326895.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326901           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326901.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326910           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326910.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326963           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326963.ba+      batch                ds2002          1  COMPLETED      0:0 
+10326991           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10326991.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327001           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327001.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327011           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327011.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327034           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327034.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327038           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327038.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327063           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327063.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327071           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327071.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327073           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327073.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327077           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327077.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327104           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327104.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327140           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327140.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327158           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327158.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327166           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327166.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327185           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327185.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327194           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327194.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327218           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327218.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327254           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327254.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327261           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327261.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327281           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327281.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327286           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327286.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327292           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327292.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327302           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327302.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327308           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327308.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327312           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327312.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327325           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327325.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327336           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327336.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327343           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327343.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327348           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327348.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327365           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327365.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327371           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327371.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327378           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327378.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327384           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327384.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327395           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327395.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327403           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327403.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327409           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327409.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327422           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327422.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327429           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327429.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327439           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327439.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327446           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327446.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327458           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327458.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327464           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327464.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327486           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327486.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327495           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327495.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327507           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327507.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327518           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327518.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327536           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327536.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327546           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327546.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327608           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327608.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327627           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327627.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327633           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327633.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327645           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327645.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327651           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327651.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327653           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327653.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327659           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327659.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327673           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327673.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327678           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327678.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327682           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327682.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327697           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327697.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327725           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327725.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327753           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327753.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327763           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327763.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327766           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327766.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327790           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327790.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327800           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327800.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327817           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327817.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327825           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327825.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327831           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327831.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327840           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327840.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327845           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327845.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327860           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327860.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327867           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327867.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327881           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327881.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327888           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327888.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327907           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327907.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327915           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327915.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327925           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327925.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327938           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327938.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327950           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327950.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327958           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327958.ba+      batch                ds2002          1  COMPLETED      0:0 
+10327975           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10327975.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328001           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328001.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328003           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328003.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328005           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328005.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328011           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328011.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328020           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328020.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328031           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328031.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328034           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328034.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328040           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328040.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328047           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328047.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328054           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328054.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328064           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328064.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328072           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328072.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328080           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328080.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328092           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328092.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328096           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328096.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328103           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328103.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328116           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328116.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328125           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328125.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328129           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328129.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328133           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328133.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328138           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328138.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328141           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328141.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328145           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328145.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328151           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328151.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328156           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328156.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328162           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328162.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328173           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328173.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328177           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328177.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328184           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328184.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328188           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328188.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328194           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328194.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328221           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328221.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328235           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328235.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328240           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328240.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328245           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328245.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328247           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328247.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328252           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328252.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328256           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328256.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328271           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328271.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328280           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328280.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328297           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328297.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328303           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328303.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328311           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328311.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328318           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328318.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328339           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328339.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328350           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328350.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328366           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328366.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328404           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328404.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328410           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328410.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328415           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328415.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328424           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328424.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328433           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328433.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328442           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328442.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328448           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328448.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328454           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328454.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328472           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328472.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328489           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328489.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328502           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328502.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328532           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328532.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328540           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328540.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328554           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328554.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328566           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328566.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328567           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328567.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328591           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328591.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328610           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328610.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328616           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328616.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328633           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328633.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328663           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328663.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328670           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328670.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328679           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328679.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328706           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328706.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328723           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328723.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328732           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328732.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328741           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328741.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328745           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328745.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328773           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328773.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328793           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328793.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328824           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328824.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328827           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328827.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328848           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328848.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328870           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328870.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328893           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328893.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328907           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328907.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328908           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328908.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328915           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328915.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328926           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328926.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328939           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328939.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328954           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328954.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328962           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328962.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328974           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328974.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328977           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328977.ba+      batch                ds2002          1  COMPLETED      0:0 
+10328986           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10328986.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329000           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329000.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329007           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329007.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329013           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329013.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329023           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329023.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329031           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329031.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329034           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329034.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329040           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329040.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329042           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329042.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329049           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329049.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329053           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329053.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329059           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329059.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329067           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329067.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329072           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329072.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329075           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329075.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329080           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329080.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329082           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329082.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329085           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329085.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329090           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329090.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329098           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329098.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329110           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329110.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329112           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329112.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329114           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329114.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329116           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329116.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329121           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329121.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329126           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329126.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329131           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329131.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329139           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329139.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329145           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329145.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329169           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329169.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329174           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329174.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329175           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329175.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329179           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329179.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329189           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329189.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329195           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329195.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329202           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329202.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329208           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329208.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329214           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329214.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329217           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329217.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329226           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329226.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329238           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329238.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329245           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329245.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329351           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329351.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329358           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329358.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329365           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329365.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329370           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329370.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329375           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329375.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329382           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329382.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329387           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329387.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329393           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329393.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329395           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329395.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329404           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329404.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329406           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329406.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329408           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329408.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329416           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329416.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329420           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329420.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329430           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329430.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329440           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329440.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329442           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329442.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329451           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329451.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329452           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329452.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329455           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329455.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329459           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329459.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329465           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329465.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329476           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329476.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329484           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329484.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329489           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329489.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329493           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329493.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329500           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329500.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329502           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329502.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329508           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329508.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329521           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329521.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329534           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329534.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329539           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329539.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329544           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329544.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329553           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329553.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329554           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329554.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329561           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329561.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329568           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329568.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329570           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329570.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329581           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329581.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329588           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329588.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329592           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329592.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329597           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329597.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329599           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329599.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329608           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329608.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329615           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329615.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329626           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329626.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329631           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329631.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329638           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329638.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329642           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329642.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329644           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329644.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329648           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329648.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329650           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329650.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329659           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329659.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329665           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329665.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329669           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329669.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329675           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329675.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329680           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329680.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329682           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329682.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329687           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329687.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329694           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329694.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329701           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329701.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329706           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329706.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329711           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329711.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329718           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329718.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329721           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329721.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329724           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329724.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329725           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329725.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329728           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329728.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329732           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329732.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329733           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329733.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329744           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329744.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329746           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329746.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329752           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329752.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329758           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329758.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329765           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329765.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329770           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329770.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329788           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329788.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329799           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329799.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329802           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329802.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329805           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329805.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329810           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329810.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329816           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329816.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329827           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329827.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329830           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329830.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329843           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329843.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329848           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329848.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329853           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329853.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329860           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329860.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329863           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329863.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329864           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329864.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329869           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329869.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329871           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329871.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329885           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329885.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329890           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329890.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329895           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329895.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329897           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329897.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329901           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329901.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329908           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329908.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329915           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329915.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329920           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329920.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329937           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329937.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329947           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329947.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329953           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329953.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329960           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329960.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329966           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329966.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329968           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329968.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329972           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329972.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329973           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329973.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329976           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329976.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329982           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329982.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329990           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329990.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329991           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329991.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329993           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329993.ba+      batch                ds2002          1  COMPLETED      0:0 
+10329996           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10329996.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330000           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330000.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330004           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330004.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330008           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330008.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330109           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330109.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330111           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330111.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330112           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330112.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330115           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330115.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330119           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330119.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330125           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330125.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330129           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330129.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330131           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330131.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330133           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330133.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330136           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330136.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330138           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330138.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330139           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330139.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330143           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330143.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330145           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330145.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330149           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330149.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330164           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330164.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330168           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330168.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330170           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330170.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330173           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330173.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330176           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330176.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330177           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330177.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330178           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330178.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330179           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330179.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330182           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330182.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330183           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330183.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330184           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330184.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330186           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330186.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330189           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330189.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330191           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330191.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330193           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330193.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330198           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330198.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330204           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330204.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330206           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330206.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330210           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330210.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330214           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330214.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330215           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330215.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330216           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330216.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330218           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330218.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330219           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330219.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330221           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330221.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330223           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330223.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330226           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330226.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330230           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330230.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330231           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330231.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330233           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330233.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330234           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330234.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330235           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330235.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330239           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330239.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330244           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330244.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330247           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330247.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330252           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330252.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330254           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330254.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330256           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330256.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330257           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330257.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330262           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330262.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330267           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330267.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330270           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330270.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330271           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330271.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330274           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330274.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330276           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330276.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330281           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330281.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330284           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330284.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330290           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330290.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330294           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330294.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330315           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330315.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330318           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330318.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330320           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330320.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330322           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330322.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330323           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330323.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330324           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330324.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330328           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330328.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330330           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330330.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330332           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330332.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330338           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330338.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330342           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330342.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330344           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330344.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330346           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330346.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330348           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330348.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330352           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330352.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330355           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330355.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330356           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330356.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330357           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330357.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330358           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330358.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330359           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330359.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330360           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330360.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330361           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330361.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330363           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330363.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330366           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330366.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330368           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330368.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330370           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330370.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330371           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330371.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330372           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330372.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330378           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330378.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330379           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330379.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330382           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330382.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330386           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330386.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330389           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330389.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330392           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330392.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330393           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330393.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330394           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330394.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330395           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330395.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330396           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330396.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330398           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330398.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330403     ood_vscode interacti+     ds2002          2    RUNNING      0:0 
+10330403.ba+      batch                ds2002          2    RUNNING      0:0 
+10330404           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330404.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330405           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330405.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330411           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330411.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330414           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330414.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330415           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330415.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330416           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330416.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330417           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330417.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330419           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330419.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330420           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330420.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330424           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330424.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330425           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330425.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330429           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330429.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330430           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330430.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330431           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330431.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330434           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330434.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330435           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330435.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330436           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330436.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330439           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330439.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330440           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330440.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330441           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330441.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330446           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330446.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330448           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330448.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330449           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330449.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330452           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330452.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330453           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330453.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330454           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330454.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330456           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330456.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330458           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330458.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330459           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330459.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330461           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330461.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330462           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330462.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330463           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330463.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330465           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330465.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330466           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330466.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330467           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330467.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330469           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330469.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330470           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330470.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330471           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330471.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330478           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330478.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330479           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330479.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330480           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330480.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330482           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330482.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330483           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330483.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330484           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330484.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330486           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330486.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330487           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330487.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330488           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330488.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330489           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330489.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330491           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330491.ba+      batch                ds2002          1     FAILED      1:0 
+10330493           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330493.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330494           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330494.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330495           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330495.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330496           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330496.ba+      batch                ds2002          1     FAILED      1:0 
+10330497           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330497.ba+      batch                ds2002          1     FAILED      1:0 
+10330498           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330498.ba+      batch                ds2002          1     FAILED      1:0 
+10330499           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330499.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330500           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330500.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330501           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330501.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330505           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330505.ba+      batch                ds2002          1     FAILED      1:0 
+10330506           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330506.ba+      batch                ds2002          1     FAILED      1:0 
+10330508           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330508.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330509           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330509.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330510           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330510.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330514           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330514.ba+      batch                ds2002          1     FAILED      1:0 
+10330515           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330515.ba+      batch                ds2002          1     FAILED      1:0 
+10330516           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330516.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330517           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330517.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330518           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330518.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330521           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330521.ba+      batch                ds2002          1     FAILED      1:0 
+10330522           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330522.ba+      batch                ds2002          1     FAILED      1:0 
+10330523           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330523.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330524           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330524.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330525           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330525.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330526           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330526.ba+      batch                ds2002          1     FAILED      1:0 
+10330527           lab7 standard-+     ds2002          1     FAILED      1:0 
+10330527.ba+      batch                ds2002          1     FAILED      1:0 
+10330528           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330528.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330529           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330529.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330530           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330530.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330531           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330531.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330532           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330532.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330533           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330533.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330534           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330534.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330535           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330535.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330536           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330536.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330537           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330537.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330538           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330538.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330539           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330539.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330540           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330540.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330542           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330542.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330543           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330543.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330544           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330544.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330545           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330545.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330546           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330546.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330548           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330548.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330549           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330549.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330550           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330550.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330551           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330551.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330552           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330552.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330553           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330553.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330554           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330554.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330555           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330555.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330556           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330556.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330557           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330557.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330559           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330559.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330560           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330560.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330561           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330561.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330562           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330562.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330563           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330563.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330567           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330567.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330568           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330568.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330569           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330569.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330570           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330570.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330571           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330571.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330572           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330572.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330573           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330573.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330574           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330574.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330575           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330575.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330576           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330576.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330577           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330577.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330578           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330578.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330580           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330580.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330581           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330581.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330582           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330582.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330583           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330583.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330584           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330584.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330585           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330585.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330591           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330591.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330592           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330592.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330593           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330593.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330594           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330594.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330595           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330595.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330596           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330596.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330601           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330601.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330602           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330602.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330603           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330603.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330604           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330604.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330605           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330605.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330606           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330606.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330607           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330607.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330608           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330608.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330609           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330609.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330610           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330610.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330611           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330611.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330612           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330612.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330613           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330613.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330614           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330614.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330615           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330615.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330616           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330616.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330617           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330617.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330618           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330618.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330620           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330620.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330621           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330621.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330622           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330622.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330623           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330623.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330624           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330624.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330625           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330625.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330626           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330626.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330628           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330628.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330629           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330629.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330630           lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330630.ba+      batch                ds2002          1  COMPLETED      0:0 
+10330654_1         lab7 standard-+     ds2002          1     FAILED      1:0 
+10330654_1.+      batch                ds2002          1     FAILED      1:0 
+10330654_2         lab7 standard-+     ds2002          1     FAILED      1:0 
+10330654_2.+      batch                ds2002          1     FAILED      1:0 
+10330654_3         lab7 standard-+     ds2002          1     FAILED      1:0 
+10330654_3.+      batch                ds2002          1     FAILED      1:0 
+10330654_4         lab7 standard-+     ds2002          1     FAILED      1:0 
+10330654_4.+      batch                ds2002          1     FAILED      1:0 
+10330654_5         lab7 standard-+     ds2002          1     FAILED      1:0 
+10330654_5.+      batch                ds2002          1     FAILED      1:0 
+10330691_1         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330691_1.+      batch                ds2002          1  COMPLETED      0:0 
+10330691_2         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330691_2.+      batch                ds2002          1  COMPLETED      0:0 
+10330691_3         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330691_3.+      batch                ds2002          1  COMPLETED      0:0 
+10330691_4         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330691_4.+      batch                ds2002          1  COMPLETED      0:0 
+10330691_5         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330691_5.+      batch                ds2002          1  COMPLETED      0:0 
+10330708_1         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330708_1.+      batch                ds2002          1  COMPLETED      0:0 
+10330708_2         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330708_2.+      batch                ds2002          1  COMPLETED      0:0 
+10330708_3         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330708_3.+      batch                ds2002          1  COMPLETED      0:0 
+10330708_4         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330708_4.+      batch                ds2002          1  COMPLETED      0:0 
+10330708_5         lab7 standard-+     ds2002          1  COMPLETED      0:0 
+10330708_5.+      batch                ds2002          1  COMPLETED      0:0 
