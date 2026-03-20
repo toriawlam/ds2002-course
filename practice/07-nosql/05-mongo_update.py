@@ -24,3 +24,6 @@ items.update_one({"name": "apple"}, {"$set": {"restocked": True}})
 
 get_record = items.find({"name": "apple"})
 print(dumps(list(get_record), indent=2))
+
+# Close the connection
+client.close()

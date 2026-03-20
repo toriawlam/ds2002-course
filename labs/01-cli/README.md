@@ -481,10 +481,10 @@ find . -type f -name '*2026*'
 
 The wildcard `*` is useful in many contexts:
 
-List all files ending with `.pdf`
+List all files ending with `.txt`
 
 ```bash
-ls -al *.pdf
+ls -al *.txt
 ```
 
 Delete all files containing "zero" in the name (first create some test files if needed):

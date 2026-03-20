@@ -23,5 +23,10 @@ items.insert_one(new_record)
 # Insert multiple records
 items.insert_many([{"name": "banana", "quantity": 10}, {"name": "orange", "quantity": 3}])
 
-get_record = items.find({"name": "apple"})
-print(dumps(list(get_record), indent=2))
+# Get all records
+get_records = items.find()
+print(dumps(list(get_records), indent=2))
+
+# Close the connection
+client.close()
+
