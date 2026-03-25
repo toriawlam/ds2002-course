@@ -2,11 +2,11 @@
 
 The goal of this activity is to familiarize you with cloud computing concepts and services. Cloud computing is essential for scalable data processing, accessing powerful computing resources on-demand, and building modern data science infrastructure.
 
-If the initial examples feel like a breeze, challenge yourself with activities in the *Advanced Concepts* section and explore the resource links at the end of this post.
+If the initial examples feel easy, challenge yourself with the *Advanced Concepts* section and the resource links at the end of this document.
 
-* Start with the **In-class Exercises** which provide an introduction to Amazon EC2.
+* Start with the **In-class exercises**, which introduce Amazon EC2 (console and CLI).
 * Complete [Lab 09: EC2](../../labs/09-ec2/).
-* Continue with the **Additional Practices** section on your own time. 
+* Continue with **Additional Practice** (Python scripts) on your own time.
 * **Optional:** Explore the **Advanced Concepts** if you wish to go deeper into EC2, EBS, and related topics.
 
 ## In-class exercises
@@ -18,11 +18,11 @@ If the initial examples feel like a breeze, challenge yourself with activities i
 1. You should have received an email to your UVA account with an invitation to the AWS Academy Cloud Foundations course.
 
 2. If you haven't done so yet, follow the [AWS Academy account setup](../../setup/aws_academy.md) instructions to get your account ready.
-   
-#### Step 2: Complete **Lab: Introduction to AWS IAM**
 
-1. On the AWS Academy Canvas page, navigate to `Modules` > `Module 6` > `Lab 3 Introduction to Amazon EC2`
-   
+#### Step 2: Complete the **Introduction to Amazon EC2** lab
+
+1. On the AWS Academy Canvas page, navigate to `Modules` > `Module 6 - Compute` > `Lab 3 Introduction to Amazon EC2`
+
 2. Follow the lab instructions. When you click **Start Lab**, wait until the AWS indicator light turns green.
 
 3. Click on the AWS link when the indicator turns green. A new browser tab should open with the `AWS Management Console`.
@@ -49,12 +49,12 @@ For the shared course account you use the `ds2002-user` setup from Lab 08; for a
 The `aws` CLI must be installed and configured (credentials and default region). Follow [Lab 08: Setup](../../labs/08-s3/README.md#setup) (environment, `aws configure`, and optional `boto3`).
 
 #### Step 1: Gather AWS identifiers
-You will need to gather several identifiers from your AWS environment before launching: 
+You will need to gather several identifiers from your AWS environment before launching:
 - AMI ID: The *Amazon Machine Image* ID (e.g., ami-0abcdef1234567890).
 - Instance Type: The hardware specification (e.g., t2.micro).
 - Subnet ID: The ID of the VPC subnet where the instance will reside.
 - Security Group ID: One or more security group IDs to control traffic.
-- Key Pair Name: The name of the SSH key pair for logging in. 
+- Key Pair Name: The name of the SSH key pair for logging in.
 
 **Where to find these identifiers in the AWS Console:**
 
@@ -65,7 +65,7 @@ You will need to gather several identifiers from your AWS environment before lau
   
 - **Instance Type**: 
   - When launching an instance, you'll see a list of instance types
-  - For learning purposes, `t2.micro` or `t3.micro` are free tier eligible
+  - For learning purposes, `t2.micro` or `t3.micro` are often eligible for the AWS Free Tier
   - See [EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) for details
   
 - **Subnet ID**: 
@@ -103,6 +103,8 @@ aws ec2 run-instances \
 ```
 > **Note:** Replace all placeholder values (AMI ID, instance type, key pair **name**, security group ID, subnet ID) with your actual AWS values. **`--key-name`** is the key pair name in EC2 (e.g. `MyKeyPair`), not the path to the `.pem` file.
 
+We do not need to set the virtual private cloud ID (VPC ID): `--subnet-id` already picks the VPC (each subnet is tied to one VPC, so the instance is launched in that VPC automatically). In addition, `--security-group-ids` must reference security groups in that same VPC.
+
 **Useful optional parameters**
 
 - **Tagging:** add a `Name` tag so the instance is easy to spot in the console, for example:
@@ -113,12 +115,12 @@ aws ec2 run-instances \
   ```bash
   --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=ds2002-'"$USER"'}]'
   ```
-- **User data:** pass a script to run on **first boot** (bootstrapping). Use `--user-data file://bootstrap.sh` (see [User Data & Bootstrapping](#user-data--bootstrapping)). Optional.
+- **User data:** pass a script to run on **first boot** (bootstrapping). Use `--user-data file://bootstrap.sh` (see [User Data & Bootstrapping](#user-data-bootstrapping)). Optional.
 - **Monitoring:** enable detailed CloudWatch monitoring:
   ```bash
   --monitoring "Enabled=true"
   ```
-  **What is CloudWatch monitoring?** Amazon CloudWatch collects metrics and logs from your EC2 instances. By default, EC2 instances have basic monitoring (free) which collects metrics at 5-minute intervals. Enabling detailed monitoring collects metrics at 1-minute intervals, providing more granular data for performance analysis and troubleshooting. Note that detailed monitoring incurs additional charges. For learning purposes, basic monitoring is usually sufficient. 
+  **What is CloudWatch monitoring?** Amazon CloudWatch collects metrics and logs from your EC2 instances. By default, EC2 instances have basic monitoring (free) which collects metrics at 5-minute intervals. Enabling detailed monitoring collects metrics at 1-minute intervals, providing more granular data for performance analysis and troubleshooting. Note that detailed monitoring incurs additional charges. For learning purposes, basic monitoring is usually sufficient.
 
 #### Post-launch steps
 
@@ -140,13 +142,13 @@ ssh -i "MyKeyPair.pem" ubuntu@<public-ip-address>
 #### SSH into your instance
 
 1. **Find your instance ID** if you do not have it yet: in the AWS Console go to **EC2 → Instances**, select your instance, and copy **Instance ID**. From the CLI you can list running instances with `aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,State.Name,PublicIpAddress]' --output table`.
-2. Run the **Post-Launch Steps** commands above: use `describe-instances` to get the **public IP**, then `ssh -i "MyKeyPair.pem" ubuntu@<public-ip-address>` (replace the key filename and IP). On first connect, type `yes` when prompted to trust the host key.
+2. Run the **Post-launch steps** commands above: use `describe-instances` to get the **public IP**, then `ssh -i "MyKeyPair.pem" ubuntu@<public-ip-address>` (replace the key filename and IP). On first connect, type `yes` when prompted to trust the host key.
 3. **If SSH fails with “Permission denied (publickey)”**: confirm the key path (`-i`), that the `.pem` permissions are `chmod 400`, that you use `ubuntu` for Ubuntu AMIs (or `ec2-user` for Amazon Linux), and that your security group allows **inbound TCP 22** from your current public IP.
-4. After login, run `hostname` or `whoami` to confirm you are on the EC2 instance as `ubuntu` before continuing to **Perform System Admin Tasks** below.
+4. After login, run `hostname` or `whoami` to confirm you are on the EC2 instance as `ubuntu` before continuing to **Perform system admin tasks** below.
 
 #### Perform system admin tasks
 
-After you SSH into your instance, work through these basic systems administration tasks. Full reference: [Basic sysadmin tasks for a new EC2 instance](https://gist.github.com/nmagee/c43a3b4c76f460d59c3f9181b9582e45) (nmagee).
+After you SSH into your instance, work through these basic system administration tasks. Full reference: [Basic sysadmin tasks for a new EC2 instance](https://gist.github.com/nmagee/c43a3b4c76f460d59c3f9181b9582e45) (nmagee).
 
 **Software**
 
@@ -193,7 +195,7 @@ Stop a runaway process with `kill -9 <PID>` (use the PID from `top` or `htop`). 
 sudo adduser mst3k
 ```
 
-Even with a password set, users cannot SSH with password by default; SSH keys are required. As the new user, set up `authorized_keys`:
+Even with a password set, users cannot SSH with a password by default; SSH keys are required. Set up `authorized_keys` for the new account (commands below run after `sudo su - mst3k`, or adjust paths if you use another username):
 
 ```bash
 sudo su - mst3k
@@ -205,7 +207,7 @@ chmod 600 .ssh/authorized_keys
 chown mst3k:mst3k .ssh/authorized_keys
 ```
 
-Then paste their **public** SSH key into the first line of `~/.ssh/authorized_keys` (while still that user, or use `sudo nano /home/mst3k/.ssh/authorized_keys` from `ubuntu`).
+Then paste the **public** SSH key for `mst3k` into the first line of `~/.ssh/authorized_keys` (while still logged in as `mst3k`, or use `sudo nano /home/mst3k/.ssh/authorized_keys` from `ubuntu`).
 
 **Connect as new user `mst3k`**
 
@@ -216,6 +218,31 @@ ssh -i MyKeyPair.pem mst3k@<public-ip-address>
 ```
 
 Replace `MyKeyPair.pem` with your key file name and `<public-ip-address>` with the instance’s public IP (the same value you used for `ubuntu@`). If connection is refused, confirm the key is on a single line in `authorized_keys`, permissions are `700` on `.ssh` and `600` on `authorized_keys`, and the security group still allows SSH (port 22) from your IP.
+
+#### Run a simple web service (Nginx)
+
+This is a minimal pattern for “something listening on the network” after you have an Ubuntu instance (same idea extends [Lab 09: EC2](../../labs/09-ec2/README.md)).
+
+1. **Security group:** the default “SSH only” group blocks browsers.
+   - In **EC2 → Instances**, select your EC2 instance, then go to `Actions → Security → Change Security Groups`.
+   - In the `Associated security groups` search box, enter `nginx` and select the security group that pops up. This security group was created for you in the ds2002-user account. If you use your own AWS account, you'll need to create the security group yourself first.
+   ![AWS NGINX Security Group](../../docs/images/aws-security-group-nginx.png)
+   - Click `Add security group`.
+
+2. **On the instance** (SSH as `ubuntu`):
+
+   ```bash
+   sudo apt update
+   sudo apt install -y nginx
+   sudo systemctl enable --now nginx
+   curl -s -o /dev/null -w "%{http_code}\n" http://127.0.0.1/
+   ```
+
+   You should see `200`.
+
+3. **From your laptop:** open `http://<public-ip>/` in a browser (use the instance’s **public** IPv4 from the console or `describe-instances`). You should get the default Nginx welcome page.
+
+To remove the service later: `sudo apt remove -y nginx` (optional). If you attached a separate security group for HTTP, remove that association or delete the inbound **HTTP (port 80)** rule when you no longer need it.
 
 #### Resizing an instance
 
@@ -246,12 +273,13 @@ Your account must be allowed to launch the target instance type in that Availabi
 To avoid ongoing charges, terminate the instance when finished:
 ```bash
 aws ec2 terminate-instances --instance-ids <instance-id>
-``` 
-For a complete list of flags and options, refer to the <a href="https://docs.aws.amazon.com/cli/latest/reference/ec2/run-instances.html" target="_blank" rel="noopener noreferrer">official AWS CLI ec2 run-instances documentation</a>.
+```
 
-### EC2 scripts (Python boto3)
+For a complete list of `run-instances` options, see the [AWS CLI reference for `ec2 run-instances`](https://docs.aws.amazon.com/cli/latest/reference/ec2/run-instances.html).
 
-Runnable examples live in this folder (same `boto3` setup as [Practice 09](../09-iam-s3/README.md#use-boto3): default credentials chain).
+### Managing Amazon EC2 instances with Python (`boto3`)
+
+Runnable examples live in this folder (same `boto3` setup as [Practice 09](../09-iam-s3/README.md#access-s3-using-boto3-in-python): default credentials chain).
 
 1. **`01-list-instances.py`** — print every instance the account can see (`describe_instances`). Each line: instance id, state, type, public IP (or `-`), Name tag. Set `REGION` at the top of the file, then run:
 
@@ -261,9 +289,9 @@ Runnable examples live in this folder (same `boto3` setup as [Practice 09](../09
 
 2. **`02-create-security-group.py`** — create a new security group in a VPC and open SSH (port 22). Prints the new `sg-…` id (group names must be unique per VPC). Edit `REGION`, `VPC_ID`, `GROUP_NAME`, and related constants at the top, then run `python3 02-create-security-group.py`.
 
-3. **`03-launch-instance.py`** — launch a single instance into an existing subnet using one or more security groups. Edit the constants at the top (`IMAGE_ID`, `SUBNET_ID`, `SECURITY_GROUP_IDS`, etc.). Set `USER_DATA_FILE` to a path like `bootstrap.sh` to pass user data, or leave it `""` (see [User Data & Bootstrapping](#user-data--bootstrapping)). Then run `python3 03-launch-instance.py`.
+3. **`03-launch-instance.py`** — launch a single instance into an existing subnet using one or more security groups. Edit the constants at the top (`IMAGE_ID`, `SUBNET_ID`, `SECURITY_GROUP_IDS`, etc.). Set `USER_DATA_FILE` to a path like `bootstrap.sh` to pass user data, or leave it `""` (see [User Data & Bootstrapping](#user-data-bootstrapping)). Then run `python3 03-launch-instance.py`.
 
-4. **`04-terminate-instances.py`** — terminate the instance ids listed in `INSTANCE_IDS` at the top of the file. Irreversible—confirm ids with `01-list-instances.py`, `aws ec2 describe-instances`, or the console first. Then run `python3 04-terminate-instances.py`.
+4. **`04-terminate-instances.py`** — terminate the instance IDs listed in `INSTANCE_IDS` at the top of the file. Irreversible—confirm IDs with `01-list-instances.py`, `aws ec2 describe-instances`, or the console first. Then run `python3 04-terminate-instances.py`.
 
 Core API calls use **keyword arguments** with **PascalCase** keys (`ImageId`, `MinCount`, `MaxCount`, …), not JSON-style strings.
 
@@ -342,7 +370,7 @@ On **Amazon Linux**, replace the `apt-get` / `DEBIAN_FRONTEND` block with the ap
 
 ### Tagging your EC2 instance
 
-**Tags** are key/value strings attached to an instance (and other AWS resources). The **`Name`** tag is what the EC2 console shows in the “Name” column—without it, you only see the instance id. Other tags are optional (for example `Project`, `Owner`, `Environment`) and can help filtering, billing reports, and IAM policies.
+**Tags** are key/value strings attached to an instance (and other AWS resources). The **`Name`** tag is what the EC2 console shows in the “Name” column—without it, you only see the instance ID. Other tags are optional (for example `Project`, `Owner`, `Environment`) and can help with filtering, billing reports, and IAM policies.
 
 **Console:** select the instance → **Tags** tab → **Manage tags** → add `Name` and any other keys → save.
 
@@ -359,7 +387,7 @@ aws ec2 run-instances \
   --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=ds2002-mst3k},{Key=Course,Value=ds2002}]'
 ```
 
-**After the instance exists:** use the instance id from `describe-instances` or the console:
+**After the instance exists:** use the instance ID from `describe-instances` or the console:
 
 ```bash
 aws ec2 create-tags \
