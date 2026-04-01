@@ -1,0 +1,319 @@
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceID": null,
+  "InstanceType": "t3.nano",
+  "InstanceName": "ds2002-demo",
+  "PublicIpAddress": "54.234.9.240",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-private",
+  "PublicIpAddress": "54.237.238.122",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-04680790a315cd58d",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-kwj2hk",
+  "PublicIpAddress": "98.93.70.12",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "Lab 9",
+  "PublicIpAddress": "54.159.32.51",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-tsc9rv",
+  "PublicIpAddress": "72.44.41.45",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-uak4ux",
+  "PublicIpAddress": "54.145.0.59",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-xak2wm",
+  "PublicIpAddress": "98.81.145.25",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-awj8sf",
+  "PublicIpAddress": "3.85.129.138",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-khs3z-test",
+  "PublicIpAddress": "54.91.20.146",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0014a51d9784fc4c4",
+  "InstanceID": null,
+  "InstanceType": "t3.nano",
+  "InstanceName": "ds2002-mkt3qv",
+  "PublicIpAddress": "54.144.231.165",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-bvc5vq",
+  "PublicIpAddress": "54.242.0.252",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-kze4za",
+  "PublicIpAddress": "98.81.237.204",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-042e8287309f5df03",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-cwb3ud",
+  "PublicIpAddress": "54.152.108.171",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-042e8287309f5df03",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-tsc9rv",
+  "PublicIpAddress": "34.227.9.141",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-04680790a315cd58d",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-fvd6wy",
+  "PublicIpAddress": "54.198.202.195",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-04680790a315cd58d",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-fvd6wy",
+  "PublicIpAddress": "98.88.32.75",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-eby2ch",
+  "PublicIpAddress": "54.234.79.151",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-dke5td",
+  "PublicIpAddress": "54.234.37.149",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-dke5td",
+  "PublicIpAddress": "98.88.32.46",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-dke5td",
+  "PublicIpAddress": "3.91.157.25",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-sny8gv",
+  "PublicIpAddress": "13.218.241.105",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-bae7kx",
+  "PublicIpAddress": "52.90.221.242",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-fkp8mn",
+  "PublicIpAddress": "54.159.15.47",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-fkp8mn",
+  "PublicIpAddress": "174.129.68.195",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-kze4za",
+  "PublicIpAddress": "54.226.230.92",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-ddz2pt",
+  "PublicIpAddress": "3.84.197.142",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-ddz2pt",
+  "PublicIpAddress": null,
+  "State": {
+    "Code": 48,
+    "Name": "terminated"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-ddz2pt",
+  "PublicIpAddress": "13.222.125.39",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceID": null,
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-kze4za",
+  "PublicIpAddress": "3.80.30.180",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
