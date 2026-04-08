@@ -13,7 +13,7 @@ By completing this lab, you will be able to:
 - Confirm AWS CLI identity and use `aws ec2 describe-instances` with `jq` to summarize instances.
 - Create an EC2 key pair and use a `.pem` private key with `ssh -i`.
 - Gather AMI, subnet, and security group details from the console and launch an instance from a bash script.
-- SSH into the instance, install packages, and verify the environment (for example `python3 -c "import boto3"`, `htop`).
+- SSH into the instance, install packages, and verify the environment.
 
 ---
 

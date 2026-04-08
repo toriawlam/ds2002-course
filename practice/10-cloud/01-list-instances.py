@@ -30,5 +30,3 @@ for reservation in response["Reservations"]:
         pub = inst.get("PublicIpAddress") or "-"
         name = _name_from_tags(inst.get("Tags"))
         print(iid, state, itype, pub, name)
-
-

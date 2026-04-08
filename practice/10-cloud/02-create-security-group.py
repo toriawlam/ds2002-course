@@ -6,7 +6,7 @@ from botocore.exceptions import ClientError
 
 # --- edit these values for your account / VPC ---
 REGION = "us-east-1"
-VPC_ID = "vpc-0123456789abcdef0"
+VPC_ID = "vpc-05990f221a7d27325"  # "vpc-0123456789abcdef0"
 GROUP_NAME = "ds2002-sg-mst3k"
 DESCRIPTION = "Created by 02-create-security-group.py"
 # Who may reach SSH on the instance: CIDR block (e.g. your home/office /32, or 0.0.0.0/0 for “anywhere”).

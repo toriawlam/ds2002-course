@@ -247,9 +247,11 @@ head -n 1 squirrel-census.tsv | cat -A
 
 ### Working with JSON files
 
+[Lab 04: Data formats](../../labs/04-dataformats/README.md) focuses on **JSON in Python** (extract → transform → load). **`jq`** is the usual way to do ad hoc **JSON at the shell**: pretty-print API output, pluck fields, and chain filters in a pipeline. The same idea shows up later when you summarize AWS CLI JSON—for example in [Lab 09: EC2](../../labs/09-ec2/README.md) with `aws ec2 describe-instances | jq '...'`.
+
 #### CLI: jq
 
-Core Concepts to Learn About jq
+Core concepts to learn about `jq`
 
 - Everything is a Filter: A fundamental concept is that a jq program is a "filter". This filter takes a JSON input (data stream) and produces a JSON output. Even a simple literal value like "hello" or a number like 42 is considered a filter that produces that value as output.
 

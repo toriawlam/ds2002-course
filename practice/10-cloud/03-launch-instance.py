@@ -8,14 +8,15 @@ from botocore.exceptions import ClientError
 
 # --- edit these values for your account ---
 REGION = "us-east-1"
-IMAGE_ID = "ami-0123456789abcdef0"
+IMAGE_ID = "ami-0b75f821522bcff85"  # "ami-0123456789abcdef0"
 INSTANCE_TYPE = "t2.nano"
-KEY_NAME = "my-key-pair"
-SUBNET_ID = "subnet-0123456789abcdef0"
+KEY_NAME = "demokey"
+# SUBNET_ID = "subnet-0123456789abcdef0"
 SECURITY_GROUP_IDS = [
-    "sg-0123456789abcdef0",
+    "sg-0d3c1292b665a166f",
+    # "sg-0123456789abcdef0",
 ]
-INSTANCE_NAME = "ds2002-demo"  # set to "" to skip Name tag
+INSTANCE_NAME = "in-class-demo-py"  # set to "" to skip Name tag
 USER_DATA_FILE = ""  # e.g. "bootstrap.sh"; leave "" for none
 
 ec2 = boto3.client("ec2", region_name=REGION)
@@ -26,7 +27,7 @@ run_kw = {
     "MaxCount": 1,
     "InstanceType": INSTANCE_TYPE,
     "KeyName": KEY_NAME,
-    "SubnetId": SUBNET_ID,
+    # "SubnetId": SUBNET_ID,
     "SecurityGroupIds": SECURITY_GROUP_IDS,
 }
 if INSTANCE_NAME:

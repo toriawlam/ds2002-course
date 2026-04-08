@@ -143,7 +143,7 @@ ssh -i "MyKeyPair.pem" ubuntu@<public-ip-address>
 
 1. **Find your instance ID** if you do not have it yet: in the AWS Console go to **EC2 → Instances**, select your instance, and copy **Instance ID**. From the CLI you can list running instances with `aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,State.Name,PublicIpAddress]' --output table`.
 2. Run the **Post-launch steps** commands above: use `describe-instances` to get the **public IP**, then `ssh -i "MyKeyPair.pem" ubuntu@<public-ip-address>` (replace the key filename and IP). On first connect, type `yes` when prompted to trust the host key.
-3. **If SSH fails with “Permission denied (publickey)”**: confirm the key path (`-i`), that the `.pem` permissions are `chmod 400`, that you use `ubuntu` for Ubuntu AMIs (or `ec2-user` for Amazon Linux), and that your security group allows **inbound TCP 22** from your current public IP.
+3. **If SSH fails with “Permission denied (publickey)”**: confirm the key path (`-i`), that the `.pem` permissions are `chmod 400`, that you use `ubuntu` for Ubuntu AMIs (or `ec2-user` for Amazon Linux, or `admin` for Debian Linux), and that your security group allows **inbound TCP 22** from your current public IP.
 4. After login, run `hostname` or `whoami` to confirm you are on the EC2 instance as `ubuntu` before continuing to **Perform system admin tasks** below.
 
 #### Perform system admin tasks

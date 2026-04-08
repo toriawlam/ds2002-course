@@ -1,14 +1,12 @@
 # Lab 04: Data Formats - ETL Pipeline Basics
 
-The goal of this activity is to get you comfortable with building ETL (Extract, Transform, Load) pipelines—the foundation of data engineering. You will practice extracting data from APIs, transforming JSON into tabular formats, and loading data into files. Follow the steps below to create a Python script that demonstrates these fundamental data pipeline concepts.
-
-Follow the steps below to build an ETL pipeline. You will develop one Python script in this lab that tracks the International Space Station. Commit your work to your `ds2002-course` repository and submit the URL to your repo for grading.
+The goal of this activity is to get you comfortable with building ETL (Extract, Transform, Load) pipelines—the foundation of data engineering. You will extract data from APIs, transform JSON into tabular formats, and load results into files. You will build **one** Python script that tracks the International Space Station, commit it to your fork of `ds2002-course`, and submit the repository URL for grading.
 
 ## Setup
 
 For the Python scripts in this lab, you will need Python3 installed on your local system, or use Codespace.
 
-Python3 should be available in your path. Use `which python3` to find the path. That path should be something like `/usr/bin/python3`
+Python 3 should be on your `PATH`. Use `which python3` to confirm; the path is often `/usr/bin/python3`.
 
 You will also need to install the `requests` and `pandas` libraries for Python. To do this, run this command:
 
@@ -23,6 +21,10 @@ pip install --user requests pandas
 ```
 
 The `--user` flag directs the installation into a personal package library in your home directory `~/.local`.
+
+### Optional: Inspect JSON with `jq` on the CLI
+
+This lab uses Python to parse JSON from the ISS API. For quick exploration of JSON in the terminal (pretty-printing, picking fields, filtering arrays), install **`jq`** if it is not already available (`sudo apt install jq` on many Linux systems, or `brew install jq` on macOS). The **[CLI: `jq`](../../practice/05-dataformats/README.md#cli-jq)** section in **Practice 05 (Data formats)** walks through filters, pipes, and real API examples. Those skills transfer directly to other JSON-heavy tools—for example piping **`aws ec2 describe-instances`** through `jq` in [Lab 09: EC2](../09-ec2/README.md).
 
 ## Tracking the International Space Station
 
@@ -74,15 +76,17 @@ The event coordinator needs an automated system that can:
    
    a. Update the logger to include both a `StreamHandler` to log to the console and a `FileHandler` to write to a log file simultaneously. This way, they can see real-time progress in the console while maintaining a permanent record in a log file.
 
-With your ETL pipeline complete, you've successfully demonstrated the core workflow that data engineers use every day. You've learned how to:
+### What you practiced
+
+With your ETL pipeline complete, you have demonstrated the core workflow that data engineers use every day. You practiced how to:
 - Extract data from REST APIs
 - Transform nested JSON into flat, tabular formats
 - Handle timestamps and data type conversions
 - Load data incrementally by appending to files
 - Implement proper logging for debugging and monitoring
 
-This ETL pattern is the foundation for working with data pipelines, databases, and data warehouses. The skills you've practiced here will be essential as you move on to more complex data engineering tasks in the coming weeks.
+This ETL pattern is the foundation for working with data pipelines, databases, and data warehouses. The skills you practiced here will support more complex data engineering tasks later in the course.
 
 ## Submit your work
 
-You created one script for this lab (`iss.py`) and a CSV data file. Both should be in a folder `ds2002-course/mywork/lab4` within your fork of the course repository. Add, commit, and push your work. Then submit the URL of your forked repo `ds2002-course/mywork/lab4` in the text box within Canvas.
+You should have **`iss.py`** and your CSV output in **`mywork/lab4`** inside your fork of `ds2002-course`. Add, commit, and push those files. In Canvas, submit the GitHub URL to the `mywork/lab4` folder (for example: `https://github.com/YOUR_USERNAME/ds2002-course/tree/main/mywork/lab4`).

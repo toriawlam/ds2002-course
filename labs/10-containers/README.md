@@ -19,9 +19,10 @@ By completing this lab, you will be able to:
 
 ---
 
-To complete this lab, start a Code Server (VSCode) session in Open OnDemand on UVA's HPC system. 
+To complete this lab, start a Code Server (VS Code) session in Open OnDemand on UVA’s HPC system.
 
-**Activate your environment**
+**Activate your environment:**
+
 ```bash
 module load miniforge
 source activate ds2002
@@ -45,6 +46,8 @@ The output should look like this:
 If not, go through the `aws configure` steps of [Lab 08](../08-s3/README.md#setup) again.
 
 ## Task 1 - Docker on AWS (EC2)
+
+![lab10-task1](../../docs/images/lab10-task1.png)
 
 ### Step 1: Setup
 
@@ -91,7 +94,7 @@ Replace `<uva_computing_id>` with your UVA computing ID (no `<>`).
 | `-it` | Interactive terminal (TTY + stdin) so the `mysql` client can prompt you and stay in a session. |
 | `mysql:8.0` | Image on Docker Hub: MySQL 8.0 client tools (and server bits in the image; here you only run the `mysql` CLI). |
 | `mysql` | Program run inside the container (the MySQL client). |
-| `-h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com` | RDS hostname. |
+| `-h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com` | Server (host) running the MySQL database. |
 | `-P 3306` | Port on the server (MySQL default). |
 | `-u <uva_computing_id>` | Database username (your computing ID). |
 | `-p` | Prompt for password after you press Enter (do not put the password on the command line). |
@@ -105,7 +108,22 @@ Replace `<uva_computing_id>` with your UVA computing ID (no `<>`).
 - Run `SHOW TABLES;` to list your tables. If you successfully completed [Lab 05, Case Study 1](../05-sql/README.md#case-study-1-sql-cli-scripts), you should have two tables. **Take note of the table names.**
 - Run `exit` to leave the MySQL instance. You will be back on your AWS EC2 instance (the prompt should show `ubuntu@ip-172-31-22-11:~$` or similar).
 
-### Step 3: Update your MySQL database
+### Step 3: Recreate your MySQL database (if needed)
+
+**If your database already shows the two tables you created in Lab 05, skip ahead to Step 4.**
+
+**If your database is empty (no tables), recreate the schema using your Lab 05 `initialize.sql`:**
+
+- On the Ubuntu EC2 instance, create a file named `initialize.sql` (for example with `nano`) and paste the contents of your Lab 05 `initialize.sql`. **Alternatively** clone your fork on the instance and `cd` to the directory that contains `initialize.sql`.
+- From the directory that contains `initialize.sql`, run:
+   ```bash
+   MYSQL_PWD=""   # put your MySQL password between the quotes (same as Lab 05 for this RDS user)
+   sudo docker run -i mysql:8.0 mysql -h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com -P 3306 -u <uva_computing_id> -p"$MYSQL_PWD" < initialize.sql
+   ```
+
+The `< initialize.sql` part is **shell input redirection**: the bash on your EC2 host opens `initialize.sql` and sends its contents to the process’s **standard input**. Combined with `docker run -i`, that stdin is passed to the `mysql` client inside the container, so MySQL executes every statement in the file against the database (as if you had pasted the file at a `mysql>` prompt). When the command completes, you are still on the Ubuntu EC2 instance where you ran the `docker run` command.
+
+### Step 4: Update your MySQL database
 
 1. Write a SQL script `add.sql` that inserts **5 new rows** across your two tables (not necessarily five per table—five new rows total is fine if your design fits). You can start from your Lab 05 `initialize.sql`: remove `CREATE TABLE` and related DDL, keep only `INSERT`-style changes, and adjust values so keys and constraints stay valid.
 
@@ -120,7 +138,7 @@ Replace `<uva_computing_id>` with your UVA computing ID (no `<>`).
 
    This is not the most secure way to handle the password, but it is acceptable for this lab.
 
-### Step 4: Query your updated database
+### Step 5: Query your updated database
 
 Copy `query.sql` from Lab 05 to the EC2 instance (for example with `scp` or by opening nano on the EC2 instance, pasting the content, and saving as `query.sql`). On the EC2 instance, from the directory that contains `query.sql`, run:
 
@@ -136,7 +154,7 @@ add.sql  get-docker.sh  query.sql  query_results.txt
 
 Check the contents of `query_results.txt` and confirm they match what you expect.
 
-### Step 5: Exit the EC2 instance
+### Step 6: Exit the EC2 instance
 
 Run:
 
@@ -146,7 +164,7 @@ exit
 
 This returns you to the shell from which you opened the SSH session (for example your HPC Open OnDemand terminal). Your prompt may look like `(ds2002) udc-aw32-1c$` or similar.
 
-### Step 6: Copy files from EC2 instance
+### Step 7: Copy files from EC2 instance
 
 On the HPC system, create your lab folder `mywork/lab10` in your forked repo, then change into it. Run `pwd` and confirm you are in the correct directory (`~/ds2002-course/mywork/lab10`).
 
@@ -172,7 +190,7 @@ rsync -avz -e "ssh -i ~/.ssh/ds2002-mst3k.pem" \
 
 This uses your private key under `~/.ssh` and copies the listed files from the Ubuntu EC2 instance into your current directory on the HPC system.
 
-Run `ls` to confirm `add.sql`, `query.sql`, and `query_results.txt` are present, then move or copy them into `mywork/lab10` in your repo if you ran `rsync` elsewhere.
+Run `ls` to confirm `add.sql`, `query.sql`, and `query_results.txt` are present in `mywork/lab10`.
 
 ## Task 2 - Apptainer on UVA's HPC system
 
@@ -188,9 +206,15 @@ module load apptainer
 apptainer pull lolcow-latest.sif docker://godlovedc/lolcow:latest
 ```
 
-This may take a few minutes. If the terminal looks unresponsive, wait; large image pulls are slow.
+This may take a few minutes. If the terminal looks unresponsive, wait; large image pulls are slow. When the pull finishes, you should have `lolcow-latest.sif` in your home directory (the image in Apptainer format).
 
-When the pull finishes, you should have `lolcow-latest.sif` in your home directory (the image in Apptainer format).
+> **If `apptainer pull` fails** with a Docker Hub **rate limit** or **pull** error (for example text mentioning `toomanyrequests`, “rate limit”, or denied pulls), many users on the same cluster may have hit Docker Hub’s limits. You did nothing wrong.
+>
+> **Fallback:** copy the prebuilt `lolcow-latest.sif` from the course read-only bucket (run from the directory where you want the file):
+
+```bash
+aws s3 cp s3://course-read-only/lolcow-latest.sif .
+```
 
 Test it:
 
@@ -242,9 +266,9 @@ By the end of this lab, your forked `ds2002-course` repository should include th
 
 | File | Description |
 |------|-------------|
-| `add.sql` | SQL script that adds **5 new rows** to your Lab 05 schema (applied from EC2 via Docker). |
+| `add.sql` | SQL script that adds **5 new rows** to your Lab 05 schema (applied from EC2 via Docker in Step 4). |
 | `query.sql` | Query script from Lab 05 (or updated copy), run from EC2 via Docker. |
-| `query_results.txt` | Text file with the stdout from running `query.sql` through the MySQL client in Docker (Step 4). |
+| `query_results.txt` | Text file with the stdout from running `query.sql` through the MySQL client in Docker (Step 5). |
 | `jokes.sh` | Slurm batch script for the **10-task job array** with the required `#SBATCH` resources and `apptainer run` for `lolcow-latest.sif`. |
 | `jokes.txt` | Concatenated stdout from the array jobs (e.g. from `cat *.out >> jokes.txt` after tasks complete). |
 

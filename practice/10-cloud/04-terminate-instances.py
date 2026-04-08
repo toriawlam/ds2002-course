@@ -7,7 +7,8 @@ from botocore.exceptions import ClientError
 # --- edit these values; confirm ids before running (termination is permanent) ---
 REGION = "us-east-1"
 INSTANCE_IDS = [
-    "i-0123456789abcdef0",
+    "i-04fddf41080d4646b",
+    # "i-0123456789abcdef0",
 ]
 
 ec2 = boto3.client("ec2", region_name=REGION)

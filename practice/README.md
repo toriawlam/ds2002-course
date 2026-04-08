@@ -32,6 +32,4 @@ Click on a section below to get hands-on practice with a tool or concept:
 - [Cloud Storage](09-storage/README.md)
 - [Cloud Computing](10-cloud/README.md)
 - [Containers](11-containers/README.md)
-- [Data Pipelines](12-pipelines/README.md)
-- [Job Scheduling](13-jobs/README.md)
-- [Automation](14-automation/README.md)
+- [Automation of Data Pipelines](12-automation/README.md)
