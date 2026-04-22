@@ -1,0 +1,6 @@
+# Local / launcher only — pip install -U -r requirements.txt on your machine before python launch.py.
+# Do NOT put this file in container_source/: SageMaker runs pip install -r requirements.txt
+# inside the training container and breaks the image's numpy/scipy/xgboost stack.
+#
+# SageMaker Python SDK v2 — launch.py uses Estimator + image_uris.retrieve. Pin below v3.
+sagemaker>=2.75.0,<3.0.0
